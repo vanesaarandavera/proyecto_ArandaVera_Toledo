@@ -1,0 +1,39 @@
+
+/*
+p{ font-family: verdana;/*tipo de letras*/
+/*  text-align: center;/*alineación del texto*/
+/*  color: red; /*color de la fuente*/
+/*  font-size:24px;/*tamaño de la fuente*/
+/*  font-style: italic; /*estilo */
+/*  font-weight: bold; /* negrito o fuerte*/
+/*}
+
+body {
+    background-color: rgb(4, 92, 121); /*color de fondo del body*/
+ /* }
+/* color y alineación de la etiqueta h1*/
+ /* h1 { color: white;
+    font-weight: bold;/* negrito o fuerte*/
+ /* text-align: center;/*alineación*/
+/*  }   
+
+/*Eliminamos los márgenes y paddings que agrega el navegador por defecto, en la actualidad hay que probar esta funcionalidad */
+p{ margin: 0;
+padding: 0;
+}
+.titulo{
+background-color: #92a8d1; margin: 20px;
+}
+.parrafo{
+background-color: rgb(13, 58, 13);
+padding-top:50px;
+padding-left: 10px;
+padding-bottom: 60px;
+padding-right: 300px;
+}
+footer{
+   text-align: center;
+    background-color: rgb(96, 117, 19);
+    padding: 25px 50px 75px 100px;
+    margin: 0px 20px;
+}
