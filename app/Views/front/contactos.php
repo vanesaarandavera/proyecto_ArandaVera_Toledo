@@ -1,3 +1,4 @@
+<body>
 <div class="container">
     <div class="containerContacto">
         <h2>Datos de Contacto</h2>
