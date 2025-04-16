@@ -8,7 +8,7 @@ class Home extends BaseController
         $data['titulo']='principal';
         echo view('front/head_view.php', $data);
         echo view('front/nav_view.php');
-        echo view('front/plantilla.php');
+        echo view('front/inicio.php');
         echo view('front/footer_view.php');
     }
     public function contacto() {
