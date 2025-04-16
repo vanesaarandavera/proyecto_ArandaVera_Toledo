@@ -8,7 +8,7 @@
       
     </div>
     <div class="carousel-item  text-center">
-      <h5>Envio gratis en la compra de mas de 10000</h5>
+      <h5>Envio gratis en la compra de mas de $10000</h5>
     </div>
   </div>
 </div>
