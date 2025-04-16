@@ -28,5 +28,12 @@ class Home extends BaseController
             echo view('front/terminosYUsos');
             echo view('front/footer_view');
         }
-
+    public function comercializacion() {
+            // Lógica para la página de contacto
+            $data['titulo'] = 'Comercializacion';
+            echo view('front/head_view', $data);
+            echo view('front/nav_view');
+            echo view('front/comercializacion');
+            echo view('front/footer_view');
+        }
 }
