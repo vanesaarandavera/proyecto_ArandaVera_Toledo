@@ -36,4 +36,12 @@ class Home extends BaseController
             echo view('front/comercializacion');
             echo view('front/footer_view');
         }
+    public function quienes_somos() {
+            // Lógica para la página de contacto
+            $data['titulo'] = 'Comercializacion';
+            echo view('front/head_view', $data);
+            echo view('front/nav_view');
+            echo view('front/quienes_somos');
+            echo view('front/footer_view');
+        }
 }
