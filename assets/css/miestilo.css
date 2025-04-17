@@ -1,17 +1,3 @@
-/*Eliminamos los márgenes y paddings que agrega el navegador por defecto, en la actualidad hay que probar esta funcionalidad */
-p{ margin: 0;
-padding: 0;
-}
-.titulo{
-background-color: #92a8d1; margin: 20px;
-}
-.parrafo{
-background-color: rgb(13, 58, 13);
-padding-top:50px;
-padding-left: 10px;
-padding-bottom: 60px;
-padding-right: 300px;
-}
 footer{
    text-align: center;
     background-color: rgb(96, 117, 19);
@@ -34,4 +20,14 @@ containerContacto {
 formularioContacto {
   flex: 1; /* Ocupa el espacio disponible a la derecha */
   padding-left: 20px; /* Espacio entre las secciones */
+}
+
+#containerTerminos {
+  width: 80%; /* Ajusta el ancho según necesites */
+  margin: 20px auto; /* Centra el contenedor en la página */
+  padding: 10px;
+  background-color: rgb(231, 248, 183);
+}
+#containerTerminos p{ 
+  color:blue;
 }
