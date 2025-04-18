@@ -64,7 +64,7 @@
     
     <div class="navbar-logo">
       <a  href="<?php echo base_url('inicio');?>">
-      <img  src="assets/img/logo.png" alt="logo-voces-de-papel" width="100" height="100">
+      <img class="navbar-logo-img" src="assets/img/logo.png" alt="logo-voces-de-papel" width="100" height="100">
       </a>
     </div>
     
