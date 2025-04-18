@@ -1,9 +1,9 @@
-/*@import url("assets\css\variables.css");*/
+@import url("variables.css");
 
 .carousel-promo{
     margin: 0;
     padding: 10px;
-    background-color: #73e283;
+    background-color: var(--color-principal);
 
 }
 .carousel-promo h5{
@@ -46,23 +46,23 @@
 }
 hr{
     margin: 0;
-    background-color: #56b9d0;
+    background-color: var(--color-principal);
     height: 2px;
-    border-color: #56b9d0;
+    border-color: var(--color-principal);
 }
 .btn{
-    border-color:#56b9d0;
-    color: #56b9d0;
+    border-color:var(--color-principal);
+    color: var(--color-principal);
 }
 .navbar-logo-img{
     height: 80px;
     width: 80px;
 }
 .btn:hover{
-    background-color: #f24c27;
+    background-color: var(--color-naranja) ;
 }
 .nav-link:hover{
-    color: #f24c27;
+    color: var(--color-naranja) ;
 }
 @media screen and (max-width: 992px)  {
     .navbar-cuenta-principal, hr{
