@@ -25,7 +25,3 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
-  <p class="text-primary">Este texto es azul primario.</p>
-  <div class="bg-warning">Este fondo es amarillo.</div>
-  <script src="assets/js/bootstrap.bundle.min.js" integrity="" crossorigin=""></script>
-  </div>
