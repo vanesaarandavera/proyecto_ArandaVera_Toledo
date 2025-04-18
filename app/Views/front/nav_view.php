@@ -1,14 +1,11 @@
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-
-      <div class="carousel-item active text-center">
+<!--carrousel de promociones-->
+<div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
+  <div class="carousel-inner carousel-promo">
+    <div class="carousel-item active text-center">
         <h5>3 y 6 cuotas sin interes</h5>
-
-      </div>
-      <div class="carousel-item  text-center">
-        <h5>Envio gratis en la compra de mas de $10000</h5>
-      </div>
+    </div>
+    <div class="carousel-item  text-center">
+      <h5>Envio gratis en la compra de mas de $10000</h5>
     </div>
   </div>
 </div>
