@@ -2,7 +2,7 @@
 
 .carousel-promo{
     margin: 0;
-    padding: 10px;
+    padding: 8px;
     background-color: var(--color-principal);
 
 }
@@ -13,6 +13,7 @@
 .navbar{
     height: fit-content;
     margin-bottom: 25px;
+    box-shadow: 0px 1px 10px 1px #9896968d;
 }
 .navbar-flex{
     display: flex;
@@ -23,6 +24,7 @@
     margin: auto;
     flex-wrap: wrap;
     justify-content: space-between;
+    text-align: center;
 }
 
 .navbar-cuenta-carrito{
@@ -40,10 +42,7 @@
 .nav-link{
     font-size: 20px;
 }
-.dropdown-menu{
-    width: fit-content;
-    
-}
+
 hr{
     margin: 0;
     background-color: var(--color-principal);
