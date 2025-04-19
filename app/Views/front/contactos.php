@@ -3,7 +3,7 @@
     <div class="containerContacto">
         <h2>Datos de Contacto</h2>
         <p><strong>Nombre de la Empresa: </strong> Voces de Papel</p>
-        <p><strong>Dirección:</strong> Calle Falsa 123, Corrientes, Argentina</p>
+        <p><strong>Dirección:</strong> Calle 9 de Julio 1272, Corrientes, Argentina</p>
         <p><strong>Teléfono:</strong> +54 379 4989898</p>
         <p><strong>Email:</strong> info@vocesdepapel.com</p>
     </div>

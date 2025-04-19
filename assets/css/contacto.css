@@ -1,0 +1,47 @@
+containerContacto {
+  display: flex;
+  width: 80%; /* Ajusta el ancho según necesites */
+  margin: 20px auto; /* Centra el contenedor en la página */
+  border: 1px solid #ccc; /* Opcional: para visualizar el contenedor */
+  padding: 20px;
+}
+
+.contacto {
+  flex: 1; /* Ocupa el espacio disponible a la izquierda */
+  padding-right: 20px; /* Espacio entre las secciones */
+}
+
+formularioContacto {
+  flex: 1; /* Ocupa el espacio disponible a la derecha */
+  padding-left: 20px; /* Espacio entre las secciones */
+}
+
+@media screen and (max-width: 992px) {
+  .containerContacto {
+    width: 100%;
+    flex-direction: column; /* Cambia a una disposición en columna */
+    padding: 10px;
+  }
+  .contacto,
+  .formularioContacto {
+    padding: 0; /* Elimina espacio entre las secciones */
+  }
+  .containerContacto {
+    margin: 10px auto; /* Reduce márgenes y espacios*/
+  }
+}
+@media screen and (min-width: 992px) {
+  .containerContacto {
+    flex-direction: row; /* Mantén el diseño en filas */
+    padding: 20px; /* Restaurar el espacio adecuado */
+  }
+  .contacto {
+    padding-right: 20px;
+  }
+  .formularioContacto {
+    padding-left: 20px;
+  }
+  .containerContacto {
+    max-width: 1200px; /* Limitar el tamaño máximo del contenedor */
+  }
+}

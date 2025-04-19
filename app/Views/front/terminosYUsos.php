@@ -6,22 +6,16 @@
 
         <h2>Condiciones de Uso</h2>
         <h3>DATOS DE IDENTIFICACIÓN</h3>
-
-        <p>Usted está visitando la página web www. .com titularidad de S.A.
-
-            Dirección postal: .
-
-            Dirección email:
-
-            Telf.:
-
-            Datos Mercantiles:
-        </p>
-
+        <ul>
+            <li>Usted está visitando la página web www.vocesdepapel.com</li>
+            <li>Dirección real: calle 9 de Julio 1272- Corrientes Capital.</li>
+            <li>Dirección email: vocesdepapel@gmail.com</li>
+            <li>Telf.:+54 379 4989898 </li>
+        </ul>
 
         <h3>ACEPTACIÓN DEL USUARIO</h3>
 
-        <p>Estas Condiciones de Uso regulan el acceso y utilización de la página web www. .com (en adelante la “Web”) que LA COMPAÑÍA pone a disposición de los usuarios de Internet.
+        <p>Estas Condiciones de Uso regulan el acceso y utilización de la página web www.vocesdepapel.com (en adelante la “Web”) que LA COMPAÑÍA pone a disposición de los usuarios de Internet.
             El acceso a la misma implica la aceptación sin reservas de las presentes Condiciones de Uso.
             LA COMPAÑÍA puede ofrecer a través de la página web, servicios que podrán encontrarse sometidos a unas condiciones particulares propias sobre las cuales se informará al Usuario en cada caso concreto.
         </p>
@@ -57,7 +51,7 @@
 
         <p>Parte del sitio web puede albergar contenidos publicitarios o estar patrocinado. Los anunciantes y patrocinadores son los únicos responsables de asegurarse de que el material remitido para su inclusión en el sitio web cumple las leyes que en cada caso puedan ser de aplicación.
 
-            La Compañía no será responsable de cualquier error, inexactitud o irregularidad que puedan incluir los contenidos publicitarios o de los patrocinadores. En todo caso, para interponer cualquier reclamación relacionada con los contenidos publicitarios insertados en este sitio web, pueden dirigirse a la siguiente dirección de correo electrónico: protecciondedatos@casadellibro.com
+            La Compañía no será responsable de cualquier error, inexactitud o irregularidad que puedan incluir los contenidos publicitarios o de los patrocinadores. En todo caso, para interponer cualquier reclamación relacionada con los contenidos publicitarios insertados en este sitio web, pueden dirigirse a la siguiente dirección de correo electrónico: protecciondedatos@vocesdepapel.com
         </p>
 
 
@@ -83,35 +77,11 @@
         <p>
 
 
-        <h3>SECCIÓN COMUNIDAD</h3>
-
-        <p>LA COMPAÑÍA ofrece a los Usuarios la posibilidad de introducir comentarios y/o de remitir fotografías para incorporarlos en las secciones correspondientes, así como de participar en foros de debate y de mantener conversaciones con otros usuarios. La publicación de los comentarios y/o las fotografías están sujetas a las presentes Condiciones de Uso.
-
-            La persona identificada en cada caso como la que ha realizado los comentarios y/o ha enviado las fotografías, es responsable de los mismos. Los comentarios y/o las fotografías, no reflejan la opinión de LA COMPAÑÍA, ni LA COMPAÑÍA hace declaraciones a este respecto.
-
-            LA COMPAÑÍA no se hará responsable, a no ser en aquellos extremos a los que le obligue la Ley, de los errores, inexactitudes o irregularidades que puedan contener los comentarios y/o las fotografías, así como de los daños o perjuicios que se pudieran ocasionar por la inserción de los comentarios y/o las fotografías en el Foro o en las demás secciones de la página web que permitan esta clase de servicios y contenidos.
-
-            El Usuario suministrador del texto y/o fotografías cede a LA COMPAÑÍA los derechos para su reproducción, uso, distribución, comunicación pública y cualquier tipo de actividad sobre los mismos, tanto en formato electrónico, digital, papel, como en cualquier otro tipo de soporte. Y, en especial, el Usuario cede dichos derechos para el emplazamiento del texto y/o las fotografías en la página Web, con el fin de que los demás Usuarios puedan acceder a los mismos.
-
-            El Usuario suministrador declara ser el titular de los derechos sobre los textos o fotografías o, en su caso, garantiza que dispone de los derechos y autorizaciones necesarios del autor o propietario del texto y/o fotografías, para su utilización por parte de LA COMPAÑÍA a través de la página Web.
-
-            LA COMPAÑÍA no se hará responsable, a no ser en aquellos extremos a los que obligue la Ley, de los daños o perjuicios que se pudieran ocasionar por el uso, reproducción, distribución o comunicación pública o cualquier tipo de actividad que realice sobre los textos y/o fotografías que se encuentren protegidos por derechos de propiedad intelectual o de imagen pertenecientes a terceros, sin que el Usuario haya obtenido previamente de sus titulares la autorización necesaria para llevar a cabo el uso que efectúa o pretende efectuar.
-
-            Asimismo, LA COMPAÑÍA se reserva el derecho de retirar de forma unilateral los comentarios y/o fotografías albergados en cualquier sección de la web, cuando haya indicios de que los comentarios y/o fotografías infringen cualquier disposición legal, vulneran derechos de terceros, o son utilizados con fines publicitarios (spam), así como cuando LA COMPAÑÍA lo estime oportuno.
-
-            LA COMPAÑÍA no será responsable por la información enviada por el Usuario cuando no tenga conocimiento efectivo de que la información almacenada es ilícita o de que lesiona bienes o derechos de un tercero susceptibles de indemnización. En el momento que LA COMPAÑÍA tenga conocimiento efectivo de que aloja datos como los anteriormente referidos, se compromete a actuar con diligencia para retirarlos o hacer imposible el acceso a ellos.
-
-            Por otra parte, se informa al usuario de que con el objetivo de permitir un mayor control sobre la privacidad de su perfil, la COMPAÑÍA le da la posibilidad de limitar en cualquier momento el acceso de otros usuarios a su perfil, utilizando para ello las herramientas que puede encontrar en la propia sección.
-
-            En todo caso, para interponer cualquier reclamación relacionada con los contenidos insertados en cualquiera de las secciones, puede hacerlo dirigiéndose a la siguiente dirección de correo electrónico: protecciondedatos@casadellibro.com
-        </p>
-
-
         <h3>REDES SOCIALES</h3>
 
-        <p>El usuario podrá unirse a los Grupos que Casa del libro tiene en distintas redes sociales, así como en su propia Comunidad virtual descrita en el apartado anterior, con la finalidad de compartir los libros que tengan en la biblioteca y ponerse en contacto con otros lectores miembros del Grupo.
+        <p>El usuario podrá unirse a los Grupos que Voces de Papel tiene en distintas redes sociales, así como en su propia Comunidad virtual descrita en el apartado anterior, con la finalidad de compartir los libros que tengan en la biblioteca y ponerse en contacto con otros lectores miembros del Grupo.
 
-            El usuario que se haga fan del Grupo Casa del libro, acepta las condiciones de uso y política de privacidad de la red social correspondiente.
+            El usuario que se haga fan del Grupo Voces de Papel, acepta las condiciones de uso y política de privacidad de la red social correspondiente.
         </p>
 
 
@@ -139,7 +109,7 @@
 
         <h3>TRATAMIENTO DE DATOS DE MENORES DE EDAD</h3>
 
-        <p>En cumplimiento del Reglamento General de Protección de Datos de Carácter Personal y la legislación española aplicable en materia de protección de datos, LA COMPAÑÍA, para proceder al tratamiento de datos de menores de 14 años requerirá el consentimiento de los padres o tutores.
+        <p>En cumplimiento del Reglamento General de Protección de Datos de Carácter Personal y la legislación Argentina aplicable en materia de protección de datos, LA COMPAÑÍA, para proceder al tratamiento de datos de menores de 14 años requerirá el consentimiento de los padres o tutores.
 
             Corresponde a LA COMPAÑÍA articular los procedimientos que garanticen que se ha comprobado de modo efectivo la edad del menor, y la autenticidad del consentimiento prestado en su caso, por lo padres, tutores o representantes legales. En ese sentido, cada vez que un menor participe en una promoción organizada por LA COMPAÑÍA, se le solicitarán los datos de identidad del padre o tutor, su dirección postal, así como la dirección de correo electrónico con la finalidad de recabar el consentimiento paterno, así como una copia del DNI, y/o copia del Libro de Familia, mediante la cual quede claramente determinada la filiación.
         </p>
@@ -169,7 +139,7 @@
 
         <h3>LEY APLICABLE Y JURISDICCIÓN</h3>
 
-        <p>La relación entre LA COMPAÑÍA y el Usuario se regirá por la normativa española vigente y cualquier controversia se someterá a los Juzgados y Tribunales del domicilio del Usuario.
+        <p>La relación entre LA COMPAÑÍA y el Usuario se regirá por la normativa argentina vigente y cualquier controversia se someterá a los Juzgados y Tribunales del domicilio del Usuario.
 
             LA COMPAÑÍA perseguirá el incumplimiento de las presentes Condiciones de Uso así como cualquier utilización indebida del sitio web ejerciendo todas las acciones civiles y penales que le puedan corresponder y asistan en derecho.
         </p>

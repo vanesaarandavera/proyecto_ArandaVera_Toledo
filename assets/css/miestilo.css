@@ -1,33 +1,30 @@
-footer{
-   text-align: center;
-    background-color: rgb(96, 117, 19);
-    padding: 25px 50px 75px 100px;
-    margin: 0px 20px;
-}
-containerContacto {
-  display: flex;
-  width: 80%; /* Ajusta el ancho según necesites */
-  margin: 20px auto; /* Centra el contenedor en la página */
-  border: 1px solid #ccc; /* Opcional: para visualizar el contenedor */
-  padding: 20px;
+.footer {
+  text-align: center;
+  background-color: rgb(252, 184, 83); /* Color personalizado */
+  padding: 25px 50px 75px 100px; /* Espaciado amplio */
+  margin: 0px 20px; /* Margen entre el footer y el contenido */
 }
 
-.contacto {
-  flex: 1; /* Ocupa el espacio disponible a la izquierda */
-  padding-right: 20px; /* Espacio entre las secciones */
+/* Ajuste para pantallas pequeñas */
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px; /* Espaciado reducido en pantallas pequeñas */
+    margin: 5px; /* Menor margen para adaptarse a pantallas más compactas */
+  }
 }
 
-formularioContacto {
-  flex: 1; /* Ocupa el espacio disponible a la derecha */
-  padding-left: 20px; /* Espacio entre las secciones */
+/* Ajuste para pantallas medianas (tablets) */
+@media (min-width: 601px) and (max-width: 992px) {
+  .footer {
+    padding: 20px; /* Espaciado intermedio */
+    margin: 10px; /* Margen ajustado */
+  }
 }
 
-#containerTerminos {
-  width: 80%; /* Ajusta el ancho según necesites */
-  margin: 20px auto; /* Centra el contenedor en la página */
-  padding: 10px;
-  background-color: rgb(231, 248, 183);
-}
-#containerTerminos p{ 
-  color:blue;
+/* Ajuste para pantallas grandes (desktops) */
+@media (min-width: 993px) {
+  .footer {
+    padding: 25px 50px 75px 100px; /* Restaurar espaciado amplio */
+    margin: 0px 20px; /* Márgenes adecuados */
+  }
 }
