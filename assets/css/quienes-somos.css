@@ -71,9 +71,6 @@
     border-style: solid;
     border-color: #000000;*/
 }
-.card-link-wts{
-    color: #25d366;
-}
 @media screen and (max-width: 992px)  {
     .quienes-somos-section{
         font-size: 30px;
