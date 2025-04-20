@@ -94,5 +94,7 @@ hr{
         display: block;
         
     }
-
+    .nav-item-mi-cuenta{
+        display: none;
+    }
 }
