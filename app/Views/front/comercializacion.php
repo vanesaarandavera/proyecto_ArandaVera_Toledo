@@ -51,7 +51,7 @@
         <hr class="comercilaizacion-hr">
         <div class="comercializacion-acordeon-pagos">
             <img   src="assets\img\Logo_Banco_Macro.svg.png" alt="">
-            <p class="comercializacion-acordeon-p-bancos"><strong>20% de descuento</strong>Pagando con QR MODO y Crédito Visa o Mastercard. Tope de reintegro: $15.000 por cliente y por semana. </p>
+            <p class="comercializacion-acordeon-p-bancos"><strong>20% de descuento</strong> Pagando con QR MODO y Crédito Visa o Mastercard. Tope de reintegro: $15.000 por cliente y por semana. </p>
         </div>
       </div>
     </div>
