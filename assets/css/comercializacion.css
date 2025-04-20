@@ -1,0 +1,42 @@
+@import url("variables.css");
+.comercializacion-section{
+    font-size: 40px;
+    margin-top: 50px;
+}
+.comercializacion-acordeon{
+    margin: 30px 0;
+}
+.comercializacion-acordeon-btn{
+    font-size: 70%;
+    font-weight: 500;
+}
+.comercializacion-acordeon-p, .comercializacion-acordeon-p-bancos{
+    font-size: 50%;
+    text-align: left;
+}
+.comercializacion-acordeon-pagos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 25px 0;
+}
+.comercializacion-acordeon-pagos img{
+    width: 180px;
+    height: 90px;
+}
+.comercializacion-acordeon-p-bancos{
+    width: 60%;
+}
+@media screen and (max-width: 992px) {
+    .comercializacion-section{
+        font-size: 30px;
+    }
+    .comercializacion-acordeon-pagos img{
+        width: 130px;
+        height: 60px;
+    } 
+    .comercilaizacion-hr{
+        display: block;
+    }
+}
