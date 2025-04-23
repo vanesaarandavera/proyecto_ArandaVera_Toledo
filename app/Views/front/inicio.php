@@ -25,3 +25,12 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  <div class="card" style="width: 18rem;">
+  <img src="assets\img\portada-libro-de-los-cuentos-perdidos-j-r-r-tolkien.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Hª Tierra Media Nº 01/12 El libro de los cuentos perdidos 1</h5>
+    <p class="card-text">J. R. R. Tolkien</p>
+    <p class="card-text">Precio   $31700.00</p>
+    <a href="#" class="btn btn-primary">Comprar</a>
+  </div>
+  </div>
