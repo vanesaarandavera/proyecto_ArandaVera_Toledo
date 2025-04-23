@@ -4,12 +4,40 @@
   padding: 25px 50px 75px 100px; /* Espaciado amplio */
   margin: 0px 20px; /* Margen entre el footer y el contenido */
 }
+.inicio-flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.inicio-libros-tarjetas{
+  width: 100%;
+}
+.inicio-libros-tarjetas-item{
+  width: 25%;
+  margin: 20px 20px;
+}
+.inicio-libros-tarjetas-item-texto{
+  font-size: 40px;
+}
+.inicio-libros-tarjetas-item-texto-titulo{
+  font-size: 50%;
+}
+.inicio-libros-tarjetas-item-texto-titulo-p{
+  font-size: 30%;
+}
+.inicio-libros-tarjetas-item-texto-titulo-precio{
+  font-size: 45%;
+}
 
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 600px) {
   .footer {
     padding: 15px; /* Espaciado reducido en pantallas pequeñas */
     margin: 5px; /* Menor margen para adaptarse a pantallas más compactas */
+  }
+  .inicio-libros-tarjetas-item{
+    width: 40%;
+    margin: 10px ;
   }
 }
 
@@ -18,6 +46,10 @@
   .footer {
     padding: 20px; /* Espaciado intermedio */
     margin: 10px; /* Margen ajustado */
+  }
+  .inicio-libros-tarjetas-item{
+    width: 40%;
+    margin: 10px ;
   }
 }
 
