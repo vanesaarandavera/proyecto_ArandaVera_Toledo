@@ -81,7 +81,7 @@
     <div class="navbar-busqueda" >
       <form class="d-flex " role="search">
         <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
-        <button class="btn btn-outline-success" type="submit">Buscar</button>
+        <button class="btn btn-buscar btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
   

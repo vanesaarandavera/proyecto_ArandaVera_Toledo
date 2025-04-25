@@ -58,6 +58,8 @@ body{
 }
 .btn-comprar{
   width: 100%;
+  background-color: var(--color-principal);
+  color: var(--color-negro);
 }
 
 /* Ajuste para pantallas pequeñas */
