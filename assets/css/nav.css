@@ -18,14 +18,6 @@
 .navbar-flex{
     display: flex;
 }
-.centrado{
-    width: 90%;
-    align-items: center;
-    margin: auto;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
-}
 
 .navbar-cuenta-carrito{
     width: auto;

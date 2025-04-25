@@ -6,17 +6,6 @@
     width: 80%;
     margin: auto;
     margin-bottom: 25px;
-    font-size: 40px;
-}
-.titulo{
-    margin-top: 35px;
-    color: var(--color-principal);
-    font-size: 100%;
-}
-.subtitulo{
-    font-weight: bold;
-    font-size: 60%;
-    color: var(--color-naranja) ;
 }
 .quienes-somos-introduccion{
     text-align: left;
@@ -72,9 +61,7 @@
     border-color: #000000;*/
 }
 @media screen and (max-width: 992px)  {
-    .quienes-somos-section{
-        font-size: 30px;
-    }
+    
     .quienes-somos-equipo-card-img{
         width: 250px;
         height: 250px;

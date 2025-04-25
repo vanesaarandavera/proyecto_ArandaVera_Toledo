@@ -1,8 +1,31 @@
+@import url("variables.css");
+body{
+  font-size: 40px;
+}
+
 .footer {
   text-align: center;
   background-color: rgb(252, 184, 83); /* Color personalizado */
   padding: 25px 50px 75px 100px; /* Espaciado amplio */
-  margin: 0px 20px; /* Margen entre el footer y el contenido */
+ /* Margen entre el footer y el contenido */
+}
+.titulo{
+  margin-top: 45px ;
+  color: var(--color-principal);
+  font-size: 100%;
+}
+.subtitulo{
+  font-weight: bold;
+  font-size: 60%;
+  color: var(--color-naranja) ;
+}
+.centrado{
+  width: 90%;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
 }
 .inicio-flex{
   display: flex;
