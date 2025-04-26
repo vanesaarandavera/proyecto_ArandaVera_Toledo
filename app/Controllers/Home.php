@@ -44,4 +44,12 @@ class Home extends BaseController
             echo view('front/quienes_somos');
             echo view('front/footer_view');
         }
+    public function categoria() {
+            // Lógica para la página de categoria
+            $data['titulo'] = 'Categoria-Ciencia Ficcion';
+            echo view('front/head_view.php', $data);
+            echo view('front/nav_view.php');
+            echo view('front/categoria_libro');
+            echo view('front/footer_view');
+    }
 }

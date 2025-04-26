@@ -41,7 +41,7 @@
               Categorias
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item " href="#">Ciencia Ficcion</a></li>
+              <li><a class="dropdown-item " href="<?php echo base_url('categoria');?>">Ciencia Ficcion</a></li>
               <li><a class="dropdown-item " href="#">Clásicos</a></li>
               <li><a class="dropdown-item " href="#">Romance</a></li>
               <li><a class="dropdown-item " href="#">Thriller y suspenso</a></li>
