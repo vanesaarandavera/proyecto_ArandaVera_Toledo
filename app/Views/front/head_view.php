@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/terminoYUsos.css">
     <link rel="stylesheet" href="assets/css/contacto.css">
     <link rel="stylesheet" href="assets/css/comercializacion.css">
+    <link rel="stylesheet" href="/assets/css/categoria-libro.css">
     <script src="assets/js/bootstrap.bundle.min.js" integrity="" crossorigin=""></script>
 
 </head>
