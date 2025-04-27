@@ -6,7 +6,7 @@
 
         <h2>Condiciones de Uso</h2>
         <h3>DATOS DE IDENTIFICACIÓN</h3>
-        <ul>
+        <ul class="terminos-direcciones">
             <li>Usted está visitando la página web www.vocesdepapel.com</li>
             <li>Dirección real: calle 9 de Julio 1272- Corrientes Capital.</li>
             <li>Dirección email: vocesdepapel@gmail.com</li>

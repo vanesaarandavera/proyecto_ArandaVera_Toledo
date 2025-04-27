@@ -7,6 +7,9 @@
 #containerTerminos p {
   color: blue;
 }
+.terminos-direcciones{
+  font-size: 50%;
+}
 @media screen and (max-width: 992px) {
     #containerTerminos {
       width: 100%; /* Aprovechar todo el ancho disponible */
