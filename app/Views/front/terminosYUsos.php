@@ -1,6 +1,6 @@
-<body>
+
     <div id="containerTerminos">
-        <h1>
+        <h1 class="termino-titulo">
             Terminos y Usos
         </h1>
 

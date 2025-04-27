@@ -8,7 +8,6 @@
   color: blue;
 }
 @media screen and (max-width: 992px) {
-  @media screen and (max-width: 992px) {
     #containerTerminos {
       width: 100%; /* Aprovechar todo el ancho disponible */
       margin: 10px auto; /* Reducir márgenes */
@@ -18,10 +17,8 @@
       font-size: 14px; /* Hacer el texto más pequeño para pantallas reducidas */
       text-align: center; /* Centrar el texto para mejor lectura */
     }
-  }
 }
 @media screen and (min-width: 992px) {
-  @media screen and (min-width: 992px) {
     #containerTerminos {
       max-width: 1200px; /* Establecer un tamaño máximo para evitar demasiado espacio */
       padding: 20px; /* Aumentar el espacio para una presentación más cómoda */
@@ -30,5 +27,4 @@
       font-size: 18px; /* Texto más grande para pantallas grandes */
       text-align: left; /* Alineación a la izquierda para formato profesional */
     }
-  }
 }
