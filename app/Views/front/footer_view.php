@@ -1,5 +1,5 @@
-<footer class="footer container-fluit">
-    <div class="container-fluit">
+<footer class="footer text-light py-3">
+    <div class="container-fluid text-center">
         <h4>Síguenos en nuestras redes sociales:</h4>
         <div class="d-flex justify-content-center">
             <!-- Ícono de Facebook -->

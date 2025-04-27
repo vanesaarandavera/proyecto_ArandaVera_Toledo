@@ -10,9 +10,9 @@
                 <a href="#" class="btn btn-comprar btn-primary">Comprar</a>
             </div>
         </div>
-        <div class="continer">
-            <h2>Reseña del libro "Hª Tierra Media Nº 01/12 El libro de los cuentos p"</h2>
-            <p>El Libro de los Cuentos Perdidos narra el primer esbozo de los mitos y le-yendas de la Tierra
+        <div class="continer mt-4">
+            <h2 class="text-center mb-3">Reseña del libro "Hª Tierra Media Nº 01/12 El libro de los cuentos p"</h2>
+            <h3 class="text-center mx-auto" style="max-width: 1000px;">El Libro de los Cuentos Perdidos narra el primer esbozo de los mitos y le-yendas de la Tierra
                 Media y de Valinor que acabarían evolucionando en El Silmarillion.
                 El marco narrativo es el largo viaje hacia el Oeste que em-prende un marinero
                 llamado Eriol (o Ælfwine) a Tol Eressëa, la isla solitaria donde habitan los Elfos.
@@ -24,5 +24,6 @@
                 deseen conocer cómo Tolkien enriqueció su historia y su estilo desde su configuración original,
                 y cómo finalmente El Señor de los Anillos llegó a erigirse de forma independiente.»
                 British Book News
-            </p>
+            </h3>
         </div>
+</div>
