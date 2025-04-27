@@ -52,4 +52,14 @@ class Home extends BaseController
             echo view('front/categoria_libro');
             echo view('front/footer_view');
     }
+
+
+    public function miCuenta() {
+         // Lógica para la página de mi cuenta
+         $data['titulo'] = 'Mi Cuenta';
+         echo view('front/head_view.php', $data);
+         echo view('front/nav_view.php');
+         echo view('front/mi_cuenta.php');
+         echo view('front/footer_view');
+    }
 }

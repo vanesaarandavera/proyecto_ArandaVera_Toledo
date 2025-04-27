@@ -73,7 +73,7 @@
     
     <div class="navbar-cuenta-carrito" >
       
-          <a class="nav-link  navbar-cuenta-principal"  href="#">Mi cuenta</a>
+          <a class="nav-link  navbar-cuenta-principal"  href="<?php echo base_url('mi_cuenta');?>">Mi cuenta</a>
        
           <a class="nav-link navbar-carrito" href="#">Carrito</a>
         
