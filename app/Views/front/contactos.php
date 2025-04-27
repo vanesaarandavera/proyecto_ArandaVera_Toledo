@@ -5,7 +5,7 @@
         <h3><strong>Nombre de la Empresa: </strong> Voces de Papel</h3>
         <h3><strong>Dirección:</strong> Calle 9 de Julio 1272, Corrientes, Argentina</h3>
         <h3><strong>Teléfono:</strong> +54 379 4989898</h3>
-        <h3><strong>Email:</strong> info@vocesdepapel.com</h3>
+        <h><strong>Email:</strong> info@vocesdepapel.com</h>
     </div>
     <div class="formularioContacto">
         <h2>Comunicate con nosotros</h2>

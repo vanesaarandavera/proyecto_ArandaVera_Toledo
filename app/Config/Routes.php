@@ -42,3 +42,5 @@ $routes->get('comercializacion', 'Home::comercializacion');
 $routes->get('quienes_somos', 'Home::quienes_somos');
 $routes->get('categoria', 'Home::categoria');
 $routes->get('mi_cuenta', 'Home::miCuenta');
+$routes->get('libro', 'Home::libro');
+

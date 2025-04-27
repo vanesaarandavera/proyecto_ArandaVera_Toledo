@@ -1,4 +1,4 @@
-<footer class="footer">
+<footer class="footer container-fluit">
     <div class="container-fluit">
         <h4>Síguenos en nuestras redes sociales:</h4>
         <div class="d-flex justify-content-center">

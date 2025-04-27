@@ -32,7 +32,9 @@
     <!--tarjeta para un libro-->
     <div class="inicio-libros-tarjetas inicio-flex">
       <div class="card  inicio-libros-tarjetas-item" >
+        <a href="<?php echo base_url('libro');?>">
         <img src="assets\img\portada-libro-de-los-cuentos-perdidos-j-r-r-tolkien.jpg" class="card-img-top" alt="imagen-portada-libro-de-los-cuentos-perdidos">
+        </a>
         <div class=" card-body inicio-libros-item-body">
           <h5 class=" inicio-libros-tarjetas-titulo">Hª Tierra Media Nº 01/12 El libro de los cuentos perdidos 1</h5>
           <p class="card-text inicio-libros-tarjetas-autor">J. R. R. Tolkien</p>
