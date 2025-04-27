@@ -1,16 +1,16 @@
 
     <div id="containerTerminos">
-        <h1 class="termino-titulo">
+        <h1 >
             Terminos y Usos
         </h1>
 
         <h2>Condiciones de Uso</h2>
         <h3>DATOS DE IDENTIFICACIÓN</h3>
-        <ul class="terminos-direcciones">
-            <li>Usted está visitando la página web www.vocesdepapel.com</li>
-            <li>Dirección real: calle 9 de Julio 1272- Corrientes Capital.</li>
-            <li>Dirección email: vocesdepapel@gmail.com</li>
-            <li>Telf.:+54 379 4989898 </li>
+        <ul >
+            <li class="terminos-direcciones">Usted está visitando la página web www.vocesdepapel.com</li>
+            <li class="terminos-direcciones">Dirección real: calle 9 de Julio 1272- Corrientes Capital.</li>
+            <li class="terminos-direcciones">Dirección email: vocesdepapel@gmail.com</li>
+            <li class="terminos-direcciones">Telf.:+54 379 4989898 </li>
         </ul>
 
         <h3>ACEPTACIÓN DEL USUARIO</h3>
