@@ -57,7 +57,7 @@
           <h5 class="card-title inicio-libros-tarjetas-titulo">La lengua de los elfos</h5>
           <p class="card-text inicio-libros-tarjetas-autor">Luis Gonzalez</p>
           <p class="card-text inicio-libros-tarjetas-precio">Precio $35000.00</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
+          <a href="#" class="btn btn-primary btn-comprar">Comprar</a>
         </div>
       </div>
       <div class="card inicio-libros-tarjetas-item" >
