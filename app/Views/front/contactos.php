@@ -1,11 +1,11 @@
 <body>
 <div class="container">
     <div class="containerContacto">
-        <h2>Datos de Contacto</h2>
-        <p><strong>Nombre de la Empresa: </strong> Voces de Papel</p>
-        <p><strong>Dirección:</strong> Calle 9 de Julio 1272, Corrientes, Argentina</p>
-        <p><strong>Teléfono:</strong> +54 379 4989898</p>
-        <p><strong>Email:</strong> info@vocesdepapel.com</p>
+        <h1>Datos de Contacto</h1>
+        <h3><strong>Nombre de la Empresa: </strong> Voces de Papel</h3>
+        <h3><strong>Dirección:</strong> Calle 9 de Julio 1272, Corrientes, Argentina</h3>
+        <h3><strong>Teléfono:</strong> +54 379 4989898</h3>
+        <h3><strong>Email:</strong> info@vocesdepapel.com</h3>
     </div>
     <div class="formularioContacto">
         <h2>Comunicate con nosotros</h2>
