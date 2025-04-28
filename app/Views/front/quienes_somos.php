@@ -2,13 +2,11 @@
     <div class="quienes-somos-section" >
         <h3 class="titulo" >Quienes Somos</h3>
         <p class="subtitulo" >Voces de papel</p>
-        
         <p class="quienes-somos-introduccion">Somos amigas unidas por los libros, convencidas de que cada historia tiene el poder de inspirar, transformar y conectar a las personas. <br>
         Nuestra misión es ofrecer una cuidadosa selección de libros que enriquezcan la mente y el alma, desde los clásicos imprescindibles hasta las novedades más fascinantes. Nos esforzamos por crear un espacio donde los lectores de todas las edades y gustos puedan encontrar su próxima gran aventura literaria.       <br> 
         Más que una tienda de libros, somos una comunidad de amantes de la lectura que buscan compartir su entusiasmo y contagiar el placer de sumergirse en nuevas historias. Porque detrás de cada libro hay un mundo por descubrir, y nosotras queremos ayudarte a encontrar el tuyo.
         </p>
     </div>
-    
     <div class="quienes-somos-section">
         <h3 class="titulo" >Nuestro equipo</h3>
         <div class="quienes-somos-equipo" >
