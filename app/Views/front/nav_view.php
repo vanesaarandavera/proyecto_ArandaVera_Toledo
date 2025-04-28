@@ -31,7 +31,7 @@
             <a class="nav-link " aria-current="page" href="<?php echo base_url('inicio');?>">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="#">Mi cuenta</a>
+            <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="<?php echo base_url('mi_cuenta');?>">Mi cuenta</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="<?php echo base_url('quienes_somos');?>">Quienes Somos</a>
