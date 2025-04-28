@@ -63,7 +63,12 @@ body{
 }
 
 /* Ajuste para pantallas pequeñas */
-@media (max-width: 600px) {
+@media (max-width: 480px){
+  .inicio-libros-tarjetas-item{
+    width: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
   .footer {
     padding: 15px; /* Espaciado reducido en pantallas pequeñas */
   }
