@@ -1,5 +1,5 @@
 <body>
-    <div class="container mt-5 d-flex justify-content-center align-items-center vh-100">
+    <div class="container mt-5 mb-5 d-flex justify-content-center align-items-center vh-100">
         <div class="col-md-6 col-lg-4 p-4 rounded shadow bg-light">
             <h2 class="text-center mb-4">Ingresa a tu cuenta</h2>
             <form action="/action_page.php" class="was-validated">
