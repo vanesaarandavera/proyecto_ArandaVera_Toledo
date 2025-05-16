@@ -54,12 +54,12 @@ class Home extends BaseController
     }
 
 
-    public function miCuenta() {
+    public function login() {
          // Lógica para la página de mi cuenta
          $data['titulo'] = 'Mi Cuenta';
          echo view('front/head_view.php', $data);
          echo view('front/nav_view.php');
-         echo view('front/mi_cuenta.php');
+         echo view('front/login.php');
          echo view('front/footer_view');
     }
     public function libro() {
@@ -67,7 +67,7 @@ class Home extends BaseController
             $data['titulo'] = 'libro';
             echo view('front/head_view.php', $data);
             echo view('front/nav_view.php');
-            echo view('front/libro'); 
+            echo view('front/libro');
             echo view('front/footer_view');
         }
 
