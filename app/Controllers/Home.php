@@ -22,7 +22,7 @@ class Home extends BaseController
 
     public function terminos_Usos() {
             // Lógica para la página de terminos y usos
-            $data['titulo'] = 'Terminos Y Usos';
+            $data['titulo'] = 'Términos Y Usos';
             echo view('front/head_view.php', $data);
             echo view('front/nav_view.php');
             echo view('front/terminosYUsos');
@@ -30,7 +30,7 @@ class Home extends BaseController
         }
     public function comercializacion() {
             // Lógica para la página de comercializacion
-            $data['titulo'] = 'Comercializacion';
+            $data['titulo'] = 'Comercialización';
             echo view('front/head_view.php', $data);
             echo view('front/nav_view.php');
             echo view('front/comercializacion');
@@ -46,7 +46,7 @@ class Home extends BaseController
         }
     public function categoria() {
             // Lógica para la página de categoria
-            $data['titulo'] = 'Categoria-Ciencia Ficcion';
+            $data['titulo'] = 'Categoria-Ciencia Ficción';
             echo view('front/head_view.php', $data);
             echo view('front/nav_view.php');
             echo view('front/categoria_libro');

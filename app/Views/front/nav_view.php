@@ -1,4 +1,8 @@
-
+<?php
+$session = session();
+$nonbre = $session->get('nombre');
+$perfil = $session->get('perfil_id');
+?>
 
 <!--carrousel de promociones-->
 <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
@@ -13,7 +17,7 @@
 </div>
 
 <!--menu de navegacion prueba-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary navbar-nav">
+<nav nav class="navbar navbar-expand-lg bg-body-tertiary navbar-nav">
   <!--logo-->
   <div class="navbar-flex centrado">
     <!--opciones en el menu-->
@@ -22,6 +26,10 @@
       <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+     
+        <div class="btn btn-secondary active "><a href="">
+
+        </a></div>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
@@ -33,7 +41,7 @@
               <a class="nav-link " aria-current="page" href="<?php echo base_url('inicio'); ?>">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="<?php echo base_url('mi_cuenta'); ?>">Mi cuenta</a>
+              <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="<?php echo base_url('login'); ?>">Mi cuenta</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a>
@@ -75,7 +83,7 @@
 
     <div class="navbar-cuenta-carrito">
 
-      <a class="nav-link  navbar-cuenta-principal" href="<?php echo base_url('mi_cuenta'); ?>">Mi cuenta</a>
+      <a class="nav-link  navbar-cuenta-principal" href="<?php echo base_url('login'); ?>">Mi cuenta</a>
 
       <a class="nav-link navbar-carrito" href="#">Carrito</a>
 
@@ -86,11 +94,5 @@
         <button class="btn btn-buscar btn-outline-success" type="submit">Buscar</button>
       </form>
     </div>
-
-
-
-
   </div>
-
-
 </nav>

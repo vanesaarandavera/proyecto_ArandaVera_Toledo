@@ -18,6 +18,9 @@
                 <div class="d-grid">
                     <button type="submit" class="btn btn-primary">Continuar</button>
                 </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-danger">Cancelar</button>
+                </div>
             </form>
             <div class="mt-3 text-center">
                 <h5 class="mb-1">
