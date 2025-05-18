@@ -11,7 +11,7 @@ $perfil = $session->get('perfil_id');
       <h5>3 y 6 cuotas sin interes</h5>
     </div>
     <div class="carousel-item  text-center">
-      <h5>Envio gratis en la compra de mas de $10000</h5>
+      <h5>Envío gratis en la compra de más de $10000 pesos</h5>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@ $perfil = $session->get('perfil_id');
         </a></div>
       <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body">
@@ -44,28 +44,28 @@ $perfil = $session->get('perfil_id');
               <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="<?php echo base_url('login'); ?>">Mi cuenta</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a>
+              <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quiénes Somos</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Categorias
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item " href="<?php echo base_url('categoria'); ?>">Ciencia Ficcion</a></li>
+                <li><a class="dropdown-item " href="<?php echo base_url('categoria'); ?>">Ciencia Ficción</a></li>
                 <li><a class="dropdown-item " href="#">Clásicos</a></li>
                 <li><a class="dropdown-item " href="#">Romance</a></li>
                 <li><a class="dropdown-item " href="#">Thriller y suspenso</a></li>
                 <li>
                   <hr class="dropdown-divider">
                 </li>
-                <li><a class="dropdown-item " href="#">Los mas vendidos</a></li>
+                <li><a class="dropdown-item " href="#">Los más vendidos</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('contactos'); ?>">Contacto</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+              <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercialización</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('terminosYUsos'); ?>">Términos y usos</a>
