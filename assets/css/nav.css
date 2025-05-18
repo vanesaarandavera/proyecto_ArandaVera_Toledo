@@ -31,9 +31,6 @@
  .navbar-carrito, .navbar-cuenta-principal{
     margin: 10px;
 }
-.navbar-cuenta-principal{
-    text-decoration: var(--color-principal) wavy underline;
-}
 .nav-link{
     font-size: 20px;
 }
