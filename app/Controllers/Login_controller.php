@@ -1,11 +1,13 @@
 <?php
+
 namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\usuarios_model;
 
-class Login_controller extends BaseController{ 
-       public function index()
+class Login_controller extends BaseController
+{
+    public function index()
     {
         helper(['form', 'url']);
         return view('front/head_view', ['titulo' => 'Iniciar Sesión'])
@@ -27,7 +29,7 @@ class Login_controller extends BaseController{
         if ($data) {
             $pass = $data['pass'];
             $ba = $data['baja'];
-            $verify_pass = password_verify($password_ingresada , $pass); //verifica la contraseña
+            $verify_pass = password_verify($password_ingresada, $pass); //verifica la contraseña
             //Verificar si el usuario está dado de baja
             if ($ba == 'SI') {
                 $session->setFlashdata('msg', 'usuario dado de baja');
@@ -46,10 +48,14 @@ class Login_controller extends BaseController{
                     'logged_in' => TRUE
                 ];
                 //se cumple la verificacion e inicia la sesión
+                $tipo_usuario =  $data['perfil_id'];
                 $session->set($ses_data);
                 $session->setFlashdata('success', 'Bienvenido!!');
-                return redirect()->to('inicio'); //pagina principal
-
+                if ($tipo_usuario = 1) {
+                    return redirect()->to('listaProductos');
+                } else {
+                    return redirect()->to('inicio'); //pagina principal
+                }
             } else {
                 //no pasa la validacion de la password
                 echo "<script>alert('" . $verify_pass . "');</script>";

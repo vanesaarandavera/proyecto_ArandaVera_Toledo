@@ -3,7 +3,7 @@
 .carousel-promo{
     margin: 0;
     padding: 8px;
-    background-color: var(--color-principal);
+    background-color: var(--color-naranja);
 
 }
 .carousel-promo h5{
@@ -31,6 +31,9 @@
  .navbar-carrito, .navbar-cuenta-principal{
     margin: 10px;
 }
+.navbar-cuenta-principal{
+    text-decoration: var(--color-principal) wavy underline;
+}
 .nav-link{
     font-size: 20px;
 }
@@ -55,9 +58,22 @@ hr{
 .nav-link:hover{
     color: var(--color-naranja) ;
 }
+.nav-cerrarSesion{
+    width: 200px;
+    flex-grow: 0;
+}
+
+ /*.collapse:not(.show) {cambiando el estilo que tiene por defecto collapse
+    display: block;
+}*/
+
+
 @media screen and (max-width: 992px)  {
     .navbar-cuenta-principal, hr{
         display: none;
+    }
+    .navbar-nav .nav-lista-cerrarSesion{
+        display: block;
     }
     .carousel-promo h5{
         font-size: 18px;
@@ -65,7 +81,7 @@ hr{
 }
 @media screen and  (min-width: 992px) {
     .navbar-menu{
-        order: 4;
+        order: 5;
         width: 100%;
         justify-content: space-between;
     }
@@ -82,6 +98,9 @@ hr{
     .navbar-cuenta-carrito{
         order: 3;
     }
+    .nav-cerrarSesion{
+        order: 4;
+    }
     hr{
         display: block;
         
@@ -89,4 +108,8 @@ hr{
     .nav-item-mi-cuenta{
         display: none;
     }
+    .nav-lista-cerrarSesion{
+        display: none;
+    }
+   
 }

@@ -141,10 +141,6 @@ $usuario = $session->get('id_usuario');
           </div>
           <div class="offcanvas-body">
             <ul class="navbar-nav flex-grow-1 pe-3">
-
-              <li class="nav-item">
-                <a class="nav-link" href="inicio" href="<?php echo base_url('inicio'); ?>">Home</a>
-              </li>
               <li class="nav-item dropdown nav-lista-cerrarSesion ">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ADMIN: <?php echo session('nombre'); ?>
