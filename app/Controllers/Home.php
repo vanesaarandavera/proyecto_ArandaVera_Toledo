@@ -1,6 +1,4 @@
-<?php
-
-namespace App\Controllers;
+<?php namespace App\Controllers;
 
 use App\Models\productos_Model;
 use App\Models\categoria_model;
