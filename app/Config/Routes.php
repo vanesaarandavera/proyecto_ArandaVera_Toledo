@@ -66,11 +66,11 @@ $routes->post('enviarlogin', 'Login_controller::Auth');
 $routes->get('logout', 'Login_controller::logout');
 $routes->get('registrarse', 'Home::agregar_usuario');
 $routes->post('validacion', 'Usuario_controller::create');
-//$routes->get('listadoproductos', 'Productos_controller::listado' );
+
 //para productos
 $routes->get('crear', 'Productos_controller::creaproducto' ,['filter'=>'Auth']);
-//$routes->get('agregar','Productos_controller::creaproducto',['filter'=>'Auth']);
 $routes->get('listaProductos', 'Productos_controller::index' ,['filter'=>'Auth']);
+$routes->get('/libro/(:num)', 'Productos_controller::verLibro/$1');
 $routes->get('produ-form', 'Productos_controller::creaproducto',['filter'=>'Auth']);
 $routes->post('enviar-prod', 'Productos_controller::store' ,['filter'=>'Auth']);
 $routes->get('editar/(:num)','Productos_controller::editar/$1',['filter'=>'Auth']);
