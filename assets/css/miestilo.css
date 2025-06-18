@@ -5,7 +5,7 @@ body{
 
 .footer {
   text-align: center;
-  background-color: rgb(252, 184, 83); /* Color personalizado */
+  background-color: var(--color-amarillo);
   padding: 25px 50px 75px 100px; /* Espaciado amplio */
  /* Margen entre el footer y el contenido */
 }
@@ -18,6 +18,13 @@ body{
   font-weight: bold;
   font-size: 60%;
   color: var(--color-naranja) ;
+}
+.cuadro{
+  padding: 0.3rem;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 40px;
+  font-size: 20px;
 }
 .centrado{
   width: 90%;
@@ -61,6 +68,21 @@ body{
   background-color: var(--color-principal);
   color: var(--color-negro);
 }
+.image-container {
+    height: 200px; /* Altura fija para el contenedor de la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Oculta partes de la imagen si se desborda */
+}
+
+
+.thumbnail {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px; /* Añadir espacio entre filas de tarjetas */
+}
 
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
@@ -84,6 +106,7 @@ body{
 /* Ajuste para pantallas medianas (tablets) */
 @media (min-width: 601px) and (max-width: 992px) {
   .footer {
+    margin-top: 15px ;
     padding: 20px; /* Espaciado intermedio */
   }
   .inicio-libros-tarjetas-item{
@@ -98,6 +121,7 @@ body{
 /* Ajuste para pantallas grandes (desktops) */
 @media (min-width: 993px) {
   .footer {
+    margin-top: 10px ;
     padding: 25px 50px 75px 100px; /* Restaurar espaciado amplio */
   }
 }

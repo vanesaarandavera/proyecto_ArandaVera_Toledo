@@ -5,8 +5,8 @@
     </h1>
 
 
-    <h2>Condiciones de Uso</h2>
-    <h3>DATOS DE IDENTIFICACIÓN</h3>
+    <h2 class="subtitulo">Condiciones de Uso</h2>
+    <h3 class="subtitulo">DATOS DE IDENTIFICACIÓN</h3>
     <ul>
         <li class="terminos-direcciones">Usted está visitando la página web www.vocesdepapel.com</li>
         <li class="terminos-direcciones">Dirección real: calle 9 de Julio 1272- Corrientes Capital.</li>
@@ -14,7 +14,7 @@
         <li class="terminos-direcciones">Telf.:+54 379 4989898 </li>
     </ul>
 
-    <h3>ACEPTACIÓN DEL USUARIO</h3>
+    <h3 class="subtitulo">ACEPTACIÓN DEL USUARIO</h3>
 
     <p>Estas Condiciones de Uso regulan el acceso y utilización de la página web www.vocesdepapel.com (en adelante la “Web”) que LA COMPAÑÍA pone a disposición de los usuarios de Internet.
         El acceso a la misma implica la aceptación sin reservas de las presentes Condiciones de Uso.
@@ -22,7 +22,7 @@
     </p>
 
 
-    <h3>ACCESO A LA PÁGINA WEB Y CONTRASEÑAS</h3>
+    <h3 class="subtitulo">ACCESO A LA PÁGINA WEB Y CONTRASEÑAS</h3>
 
     <p>En general no se exige la previa suscripción o registro como Usuario para el acceso y uso de la página web, sin perjuicio de que para la utilización de determinados servicios o contenidos de la misma se deba realizar dicha suscripción o registro.
 
@@ -34,7 +34,7 @@
     </p>
 
 
-    <h3>USO CORRECTO DE LA PÁGINA WEB</h3>
+    <h3 class="subtitulo">USO CORRECTO DE LA PÁGINA WEB</h3>
 
     <p>El Usuario se compromete a utilizar la página web, los contenidos y servicios de conformidad con la Ley, las presentes Condiciones de Uso, las buenas costumbres y el orden público. Del mismo modo el Usuario se obliga a no utilizar la página web, sus contenidos o los servicios que se presten a través de ésta con fines o efectos ilícitos o contrarios al contenido de las presentes Condiciones de Uso, lesivos de los intereses o derechos de terceros, o que de cualquier forma pueda dañar, inutilizar, hacer inaccesibles o deteriorar la página web, sus contenidos o sus servicios o impedir un normal disfrute de la misma por otros Usuarios.
 
@@ -48,7 +48,7 @@
     </p>
 
 
-    <h3>PUBLICIDAD</h3>
+    <h3 class="subtitulo">PUBLICIDAD</h3>
 
     <p>Parte del sitio web puede albergar contenidos publicitarios o estar patrocinado. Los anunciantes y patrocinadores son los únicos responsables de asegurarse de que el material remitido para su inclusión en el sitio web cumple las leyes que en cada caso puedan ser de aplicación.
 
@@ -56,7 +56,7 @@
     </p>
 
 
-    <h3>ENLACES DE TERCEROS</h3>
+    <h3 class="subtitulo">ENLACES DE TERCEROS</h3>
 
     <p>Las presentes Condiciones de Uso se refieren únicamente a la página web y contenidos de LA COMPAÑÍA, y no se aplica a los enlaces o a las páginas web de terceros accesibles a través de la página web.
 
@@ -66,7 +66,7 @@
     </p>
 
 
-    <h3>PROPIEDAD INTELECTUAL E INDUSTRIAL</h3>
+    <h3 class="subtitulo">PROPIEDAD INTELECTUAL E INDUSTRIAL</h3>
 
     <p>Todos los contenidos de la página Web, salvo que se indique lo contrario, son titularidad exclusiva de LA COMPAÑÍA y, con carácter enunciativo, que no limitativo, el diseño gráfico, código fuente, logos, textos, gráficos, ilustraciones, fotografías, y demás elementos que aparecen en la página Web.
 
@@ -78,7 +78,7 @@
     <p>
 
 
-    <h3>REDES SOCIALES</h3>
+    <h3 class="subtitulo">REDES SOCIALES</h3>
 
     <p>El usuario podrá unirse a los Grupos que Voces de Papel tiene en distintas redes sociales, así como en su propia Comunidad virtual descrita en el apartado anterior, con la finalidad de compartir los libros que tengan en la biblioteca y ponerse en contacto con otros lectores miembros del Grupo.
 
@@ -86,7 +86,7 @@
     </p>
 
 
-    <h3>PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL</h3>
+    <h3 class="subtitulo">PROTECCIÓN DE DATOS DE CARÁCTER PERSONAL</h3>
     <p>
         A través de este sitio web se recaban datos de carácter personal de los usuarios, por lo que rogamos que el usuario de la misma lea atentamente nuestra Política de Privacidad, así como las diferentes cláusulas informativas que acompañan a cada uno de los diferentes formularios habilitados para la recogida de datos personales.
 
@@ -96,7 +96,7 @@
     </p>
 
 
-    <h3>IDENTIFICADOR ÚNICO</h3>
+    <h3 class="subtitulo">IDENTIFICADOR ÚNICO</h3>
 
     <p>La Compañía capta y registra el ID de los dispositivos desde los que los visitantes de la Web acceden a la misma y asigna a cada uno de estos un identificador único basado en la tecnología del navegador de huellas digitales.
 
@@ -108,7 +108,7 @@
     </p>
 
 
-    <h3>TRATAMIENTO DE DATOS DE MENORES DE EDAD</h3>
+    <h3 class="subtitulo">TRATAMIENTO DE DATOS DE MENORES DE EDAD</h3>
 
     <p>En cumplimiento del Reglamento General de Protección de Datos de Carácter Personal y la legislación Argentina aplicable en materia de protección de datos, LA COMPAÑÍA, para proceder al tratamiento de datos de menores de 14 años requerirá el consentimiento de los padres o tutores.
 
@@ -116,7 +116,7 @@
     </p>
 
 
-    <h3>COOKIES</h3>
+    <h3 class="subtitulo">COOKIES</h3>
 
     <p>Esta página web utiliza cookies. Los cookies son pequeños ficheros de datos que se generan en el ordenador del usuario y que nos permiten conocer la siguiente información:
 
@@ -132,13 +132,13 @@
 
     </p>
 
-    <h3>MODIFICACIÓN DE LAS CONDICIONES DE USO</h3>
+    <h3 class="subtitulo">MODIFICACIÓN DE LAS CONDICIONES DE USO</h3>
 
     <p>La Compañía se reserva el derecho de desarrollar o actualizar en cualquier momento las Condiciones de Uso de la presente página web por lo que el usuario deberá leerlas periódicamente.
     </p>
 
 
-    <h3>LEY APLICABLE Y JURISDICCIÓN</h3>
+    <h3 class="subtitulo">LEY APLICABLE Y JURISDICCIÓN</h3>
 
     <p>La relación entre LA COMPAÑÍA y el Usuario se regirá por la normativa argentina vigente y cualquier controversia se someterá a los Juzgados y Tribunales del domicilio del Usuario.
 
