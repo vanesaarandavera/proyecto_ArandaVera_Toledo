@@ -370,7 +370,25 @@ DEBUG - 2025-06-18 02:02:01 --> Session: Class initialized using 'CodeIgniter\Se
 DEBUG - 2025-06-18 02:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-18 02:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 DEBUG - 2025-06-18 02:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+<<<<<<< HEAD
+DEBUG - 2025-06-18 02:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-06-18 02:04:43 --> Error: Call to undefined function set_value()
+[Method: GET, Route: agregarusuario]
+in APPPATH\Views\back\usuario\agregarusuario_view.php on line 32.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('back/usuario/agregarusuario_view.php', [], true)
+ 4 APPPATH\Controllers\Home.php(129): view('back/usuario/agregarusuario_view.php')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->agregar_usuario()
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2025-06-18 15:43:13 --> Error: Call to a member function contents() on null
+=======
 CRITICAL - 2025-06-18 03:03:35 --> Error: Call to a member function contents() on null
+>>>>>>> 3e0344e5172f4f6004624bcd8ab9406308b445e0
 [Method: GET, Route: /]
 in APPPATH\Controllers\Home.php on line 21.
  1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
@@ -379,15 +397,23 @@ in APPPATH\Controllers\Home.php on line 21.
  4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+<<<<<<< HEAD
+CRITICAL - 2025-06-18 15:43:19 --> Error: Call to a member function contents() on null
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 21.
+=======
 CRITICAL - 2025-06-18 03:12:06 --> Error: Call to a member function contents() on null
 [Method: GET, Route: /]
 in APPPATH\Controllers\Home.php on line 20.
+>>>>>>> 3e0344e5172f4f6004624bcd8ab9406308b445e0
  1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
  2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
  3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
  4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  6 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+<<<<<<< HEAD
+=======
 CRITICAL - 2025-06-18 03:12:16 --> Error: Call to a member function contents() on null
 [Method: GET, Route: /]
 in APPPATH\Controllers\Home.php on line 20.
@@ -469,10 +495,3 @@ DEBUG - 2025-06-18 03:53:46 --> Session: Class initialized using 'CodeIgniter\Se
 INFO - 2025-06-18 03:53:46 --> Cart Class Initialized
 DEBUG - 2025-06-18 03:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-18 03:56:03 --> Cart Class Initialized
-DEBUG - 2025-06-18 15:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2025-06-18 15:54:44 --> Cart Class Initialized
-DEBUG - 2025-06-18 15:55:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-DEBUG - 2025-06-18 15:55:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-DEBUG - 2025-06-18 15:55:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
-INFO - 2025-06-18 15:55:26 --> Cart Class Initialized
-DEBUG - 2025-06-18 15:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
