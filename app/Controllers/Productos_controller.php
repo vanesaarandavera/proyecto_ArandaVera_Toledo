@@ -279,4 +279,24 @@ class Productos_controller extends Controller
         echo view('back/carrito/catalogo_view', $data);
         echo view('front/footer_view');
     }
+
+     public function verLibro($id_producto)
+{
+    $productoModel = new \App\Models\productos_model(); // Asegúrate de usar el namespace completo si no está en la parte superior
+    $categoriaModel = new \App\Models\categoria_model(); // Idem
+
+    $producto = $productoModel->getProducto($id_producto);
+
+    if (empty($producto)) {
+        return redirect()->to(site_url('home'))->with('error', 'El libro no fue encontrado.');
+    }
+
+    $data['producto'] = $producto; // Esto pasa el UNICO producto
+    $dato['titulo'] = $producto['nombre_prod']; // Título para la cabecera HTML
+
+    echo view('front/head_view', $dato);
+    echo view('front/nav_view');
+    echo view('front/detalle_libro_view', $data); // <--- ¡Importante! Carga la nueva vista de detalle
+    echo view('front/footer_view');
+} 
 }

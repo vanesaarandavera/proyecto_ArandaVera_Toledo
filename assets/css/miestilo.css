@@ -84,6 +84,10 @@ body{
     margin-bottom: 20px; /* Añadir espacio entre filas de tarjetas */
 }
 
+.text-justify {
+        text-align: justify;
+    }
+
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{

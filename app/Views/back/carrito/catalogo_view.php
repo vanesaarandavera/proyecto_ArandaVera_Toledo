@@ -32,7 +32,7 @@
                 <?php if ($eliminado == '0'): ?>
                     <div class="card  inicio-libros-tarjetas-item">
 
-                        <a href="<?php echo base_url('libro'); ?>">
+                        <a href="<?php echo base_url('libro/' . $unproducto['id_producto']); ?>">
                             <?php if (!empty($unproducto['imagen']) && file_exists(FCPATH . 'assets/uploads/' . $unproducto['imagen'])): ?>
                                 <img src="<?= base_url('assets/uploads/' . $unproducto['imagen']) ?>" class="card-img-top" alt="Imagen <?= esc($unproducto['nombre_prod']) ?>" width="100" class="img-thumb" />
 

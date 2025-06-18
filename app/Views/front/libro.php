@@ -1,29 +1,48 @@
-<div class="conteiner">
-    <h3 class="titulo">Hª Tierra Media Nº 01/12 El libro de los cuentos perdidos </h3>
-    <!--tarjeta para un libro-->
+<div class="container mt-5">
+    <h3 class="titulo">Todos los libros</h3>
     <div class="inicio-libros-tarjetas inicio-flex">
-        <div class="card  inicio-libros-tarjetas-item">
-            <img src="assets\img\portada-libro-de-los-cuentos-perdidos-j-r-r-tolkien.jpg" class="card-img-top" alt="imagen-portada-libro-de-los-cuentos-perdidos">
-            <div class=" card-body inicio-libros-item-body">
-                <p class="card-text inicio-libros-tarjetas-autor">J. R. R. Tolkien</p>
-                <p class="card-text inicio-libros-tarjetas-precio">Precio $31700.00</p>
-                <a href="#" class="btn btn-comprar btn-primary">Comprar</a>
-            </div>
-        </div>
-        <div class="continer mt-4">
-            <h2 class="text-center mb-3">Reseña del libro "Hª Tierra Media Nº 01/12 El libro de los cuentos p"</h2>
-            <h3 class="text-center mx-auto" style="max-width: 1000px;">El Libro de los Cuentos Perdidos narra el primer esbozo de los mitos y le-yendas de la Tierra
-                Media y de Valinor que acabarían evolucionando en El Silmarillion.
-                El marco narrativo es el largo viaje hacia el Oeste que em-prende un marinero
-                llamado Eriol (o Ælfwine) a Tol Eressëa, la isla solitaria donde habitan los Elfos.
-                Allí conoce los Cuentos Perdidos de Elfinesse. Escritos por J.R.R.
-                Tolkien entre 1916 y 1920, los Cuentos incluyen sus primeras ideas y concepciones sobre los
-                Dioses y los Elfos, los Enanos, los Balrogs y los Orcos; los Silmarils y los dos Árboles
-                de Valinor; Nargothrond y Gondolin, y sobre la geografía y la cosmología de la Tierra Media.
-                «Los Cuentos serán apreciados por aquellos que hayan leído El Silmarillion y
-                deseen conocer cómo Tolkien enriqueció su historia y su estilo desde su configuración original,
-                y cómo finalmente El Señor de los Anillos llegó a erigirse de forma independiente.»
-                British Book News
-            </h3>
-        </div>
+
+
+        <?php
+        if ($producto) : ?>
+            <?php foreach ($producto as $unproducto): ?>
+                <?php $eliminado = $unproducto['eliminado']; ?>
+                <?php if ($eliminado == '0'): ?>
+                    <div class="card  inicio-libros-tarjetas-item">
+
+                        <a href="<?php echo base_url('libro/' . $unproducto['id_producto']); ?>">
+                            <?php if (!empty($unproducto['imagen']) && file_exists(FCPATH . 'assets/uploads/' . $unproducto['imagen'])): ?>
+                                <img src="<?= base_url('assets/uploads/' . $unproducto['imagen']) ?>" class="card-img-top" alt="Imagen <?= esc($unproducto['nombre_prod']) ?>" width="100" class="img-thumb" />
+
+                            <?php else: ?>
+                                <span>No hay imagen</span>
+                            <?php endif; ?>
+                        </a>
+                        <div class="card-body inicio-libros-item-body"> <?php if ($unproducto['stock'] > 0) { ?>
+                                <h5 class=" inicio-libros-tarjetas-titulo"><?= esc($unproducto['nombre_prod']) ?></h5>
+                                <p class="card-text inicio-libros-tarjetas-autor"><?= esc($unproducto['autor']) ?></p>
+                                <p class="card-text inicio-libros-tarjetas-precio">Precio: $<?= number_format($unproducto['precio_vta'], 2) ?></p>
+
+                                <?php echo form_open('carrito/add', ['class' => 'd-inline-block']); // d-inline-block para que el form no ocupe toda la línea
+                                    echo form_hidden('id', $unproducto['id_producto']);
+                                    echo form_hidden('precio_vta', $unproducto['precio_vta']);
+                                    echo form_hidden('nombre_prod', $unproducto['nombre_prod']);
+                                    echo form_hidden('imagen', $unproducto['imagen']);
+                                    $btn = array(
+                                        'class' => 'btn btn-comprar btn-primary',
+                                        'value' => 'Agregar al Carrito',
+                                        'name' => 'action'
+                                    );
+                                    echo form_submit($btn);
+                                    echo form_close(); ?>
+                            <?php } else { ?>
+                                <p><span class="label label-danger">Sin Stock</span></p>
+                            <?php } ?>
+                        </div>
+                    </div>
+                <?php endif; ?>
+            <?php endforeach; ?>
+        <?php else: ?>
+            <p>No hay productos disponibles.</p> <?php endif; ?>
+    </div>
 </div>
