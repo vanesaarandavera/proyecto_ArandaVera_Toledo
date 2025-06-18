@@ -13,14 +13,6 @@
         <div class="col-md-7">
             <h2 class="titulo"><?= esc($producto['nombre_prod']) ?></h2>
             <p class="lead"><strong>Autor:</strong> <?= esc($producto['autor']) ?></p>
-            
-            <p><strong>Categoría:</strong>
-                <?php
-                // Si la categoría viene como ID, necesitarías hacer otra consulta
-                // o pasar el nombre de la categoría desde el controlador
-                echo esc($producto['categoria_id']); // Ajusta esto si $producto['categoria_id'] es el ID y no el nombre
-                ?>
-            </p>
             <hr>
             <p class="precio-detalle"><strong>Precio:</strong> <span class="h4 text-primary">$<?= number_format($producto['precio_vta'], 2) ?></span></p>
             <p><strong>Stock disponible:</strong>
