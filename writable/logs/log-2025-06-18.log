@@ -495,6 +495,7 @@ DEBUG - 2025-06-18 03:53:46 --> Session: Class initialized using 'CodeIgniter\Se
 INFO - 2025-06-18 03:53:46 --> Cart Class Initialized
 DEBUG - 2025-06-18 03:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-18 03:56:03 --> Cart Class Initialized
+<<<<<<< HEAD
 >>>>>>> 3e0344e5172f4f6004624bcd8ab9406308b445e0
 DEBUG - 2025-06-18 15:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2025-06-18 15:48:24 --> Cart Class Initialized
@@ -577,3 +578,5 @@ in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
  7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
  8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
  9 FCPATH\index.php(58): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+=======
+>>>>>>> d825d830b5efb86fe7160333678f068b5600e4c8
