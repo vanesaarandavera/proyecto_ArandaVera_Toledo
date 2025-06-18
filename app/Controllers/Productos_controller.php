@@ -257,6 +257,8 @@ class Productos_controller extends Controller
 
     public function buscar()
     {
+        $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
+        $data['categorias'] = $categorias->findAll();
         $productoModel = new productos_Model();
         $termino = $this->request->getGet('query');
 
