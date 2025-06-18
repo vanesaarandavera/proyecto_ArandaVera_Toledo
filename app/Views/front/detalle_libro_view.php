@@ -36,7 +36,7 @@
             <div class="mt-4">
                 <?php if ($producto['stock'] > 0) { ?>
                     <?php
-                    echo form_open('carrito/add', ['class' => 'd-inline-block']);
+                    echo form_open('/carrito/add', ['class' => 'd-inline-block']);
                     echo form_hidden('id', $producto['id_producto']);
                     echo form_hidden('precio_vta', $producto['precio_vta']);
                     echo form_hidden('nombre_prod', $producto['nombre_prod']);
