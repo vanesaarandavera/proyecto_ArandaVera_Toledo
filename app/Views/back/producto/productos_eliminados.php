@@ -1,4 +1,4 @@
-<div>
+<div class="container-fluid">
     <?php
     if (session()->getFlashdata('success')) : ?>
         <div class="alert alert-success alert-dismissible">
@@ -10,15 +10,20 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
             <?php echo session()->getFlashdata('failed') ?>
         </div>
-    <?php endif; ?>
-</div>
-<div class="container mt-5">
+    </div>
+<?php endif; ?>
+    <div class="container">
+        <h1 class="titulo centrado">Listado de Productos Eliminados</h1>
+    </div>
+
+<div class="container mt-3">
     <div class="d-flex justify-content-end">
         <a href="<?php echo site_url('listaProductos') ?>" class="btn btn-success btn-sm mt-1">Volver</a>
     </div>
+</div>
     <div class="mt-3">
         <div class=" table-responsive">
-            <table class="table table-succes table-striped" id="user-list">
+            <table class="table table-striped table-hover table-sm cuadro" id="user-list">
                 <thead>
                     <tr>
                         <th>id</th>
