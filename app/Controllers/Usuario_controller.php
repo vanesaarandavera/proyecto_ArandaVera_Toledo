@@ -135,7 +135,6 @@ class Usuario_controller extends Controller
         $rules = [
             'nombre'    => 'required|min_length[3]',
             'apellido'  => 'required|min_length[3]|max_length[25]',
-            //'direccion' => 'required|min_length[3]',
             'email'     => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email,id_usuario,' . $id_usuario . ']',
             'usuario'   => 'required|min_length[3]|is_unique[usuarios.usuario,id_usuario,' . $id_usuario . ']',
             'pass'      => 'permit_empty|min_length[3]|max_length[10]',

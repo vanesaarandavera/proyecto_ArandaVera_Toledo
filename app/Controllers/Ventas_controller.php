@@ -65,7 +65,7 @@ class Ventas_controller extends Controller
         $nueva_venta = [
             'usuario_id' => $usuario_id,
             'total_venta' => $total_venta_cabecera,
-            'fecha' => date('d-m-Y') 
+            'fecha' => date('Y-m-d H:i:s') 
         ];
         $venta_id = $ventasModel->insert($nueva_venta);
         // Si la inserción de la cabecera falla

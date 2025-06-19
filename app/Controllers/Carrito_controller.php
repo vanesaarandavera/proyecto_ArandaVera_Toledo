@@ -32,6 +32,8 @@ class Carrito_controller extends  BaseController{
         ));
         return redirect()->back()->withInput();
     }
+ 
+
     public function eliminar_item($rowid){
     $cart = \Config\Services::Cart();
     $cart->remove($rowid);
@@ -131,9 +133,7 @@ public function resta($rowid){
     echo view('front/footer_view');
 }
 
-
-     
-    public function muestra() //carrito que se muestra
+   public function muestra() //carrito que se muestra
 {
     $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
     $data['categorias'] = $categorias->findAll();

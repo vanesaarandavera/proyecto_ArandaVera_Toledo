@@ -31,7 +31,8 @@
                                 <td><?= $row['email'] ?></td>
                                 <td><?= $row['usuario'] ?></td>
                                 <td><?= $row['total_venta'] ?></td>
-                                <td><?= $row['fecha'] ?></td>
+                                <td><?= date('Y-m-d', strtotime($row['fecha'])) ?></td>
+                                
                                 <td><?= $row['id_ventas_cabecera'] ?></td>
                                 <th><a href="<?php echo base_url('vista_compras/' . $row['id_ventas_cabecera']) ?>" class="btn btn-success btn-sm">Ver Detalle</a></th>
                             </tr>
