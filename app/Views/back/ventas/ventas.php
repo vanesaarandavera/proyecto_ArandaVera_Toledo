@@ -16,7 +16,7 @@
         <h1 class="titulo ">Listado de Ventas</h1>
     </div>
 
-    <div class="table-responsive-sm">
+    <div class="table-responsive-sm centrado">
         <table id="ventasTable" class="table table-striped table-hover table-sm cuadro">
             <thead>
                 <tr>

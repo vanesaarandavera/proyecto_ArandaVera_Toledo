@@ -3,11 +3,11 @@
     $session = session();
     if (empty($consultas)) { ?>
         <div class="container">
-            <div class="alert alert-dark text-center" role="alert">
-                <h4 class="alert-heading">No hay consultas por atender</h4>
-                <p>No hay consultas disponibles en este momento.</p>
+            <div class="alert  text-center" role="alert">
+                <h4 class="alert-heading titulo">No hay consultas por atender</h4>
+                <p class="subtitulo" >No hay consultas disponibles en este momento.</p>
                 <hr>
-                <p class="mb-0">Por favor, regrese más tarde.</p>
+                <p class="mb-0 subtitulo">Por favor, regrese más tarde.</p>
             </div>
         </div>
     <?php } else { ?>

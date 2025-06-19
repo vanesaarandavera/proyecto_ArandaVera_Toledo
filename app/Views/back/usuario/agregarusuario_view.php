@@ -89,7 +89,13 @@
 
                         <div class=" d-flex justify-content-end align-items-center productos-btn">
                             <button type="submit" class="btn btn-success btn-estilos btn-continuar">AGREGAR</button>
-                            <p  class="d-flex  align-items-center m-0 "><a href="<?= base_url('login') ?>" class="btn btn-danger btn-estilos btn-cancelar">CANCELAR</a>
+                            <p class="d-flex  align-items-center m-0 ">
+                                <?php if (session()->get('perfil_id') == 1) : ?>
+                                    <a href="<?= base_url('listaUsuarios') ?>" class="btn btn-danger btn-estilos btn-cancelar">Cancelar</a>
+                                <?php else : ?>
+                                    <a href="<?= base_url('inicio') ?>" class="btn btn-danger btn-estilos btn-cancelar">Cancelar</a>
+                                <?php endif; ?>
+                            </p>
                         </div>
                     </div>
                 </div>
