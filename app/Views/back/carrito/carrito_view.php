@@ -20,7 +20,7 @@
     </div>
     <?php if (empty($cart)): ?>
     <?php else: ?>
-        <form action="<?= base_url('carrito_actualiza') ?>" method="post">
+        <form action="<?= base_url('/carrito_actualiza') ?>" method="post">
             <div class="container mt-3">
                 <div class="table-responsive">
                     <table class="table table-striped table-hover table-sm cuadro">

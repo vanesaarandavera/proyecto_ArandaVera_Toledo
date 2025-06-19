@@ -20,18 +20,38 @@ class Carrito_controller extends  BaseController{
         $session = session();
     }
     //Añade producto al carrito
-    public function add(){
-        $cart = \Config\Services::cart();
-        $request = \Config\Services::request();
-        $cart -> insert (array(
-            'id' => $request -> getPost('id'),
-            'qty' => 1,
-            'name' => $request->getPost('nombre_prod'),
-            'price' =>$request->getPost('precio_vta'),
-            'imagen'=>$request->getPost('imagen'),
-        ));
+    public function add() {
+    $cart = \Config\Services::cart();
+    $request = \Config\Services::request();
+    $session = session();
+
+    $id     = $request->getPost('id');
+    $name   = $request->getPost('nombre_prod');
+    $price  = $request->getPost('precio_vta');
+    $imagen = $request->getPost('imagen');
+
+    // Validación básica
+    if (!$id || !$name || !$price) {
+        log_message('error', "Faltan datos del producto: id={$id}, nombre={$name}, precio={$price}");
+        $session->setFlashdata('error', 'No se pudo agregar el producto al carrito: faltan datos.');
         return redirect()->back()->withInput();
     }
+
+    $cart->insert([
+        'id'     => $id,
+        'qty'    => 1,
+        'name'   => $name,
+        'price'  => floatval($price),
+        'imagen' => $imagen ?? '',
+    ]);
+
+    $session->setFlashdata('success', 'Producto agregado al carrito 🛒');
+    $referer = $request->getServer('HTTP_REFERER');
+    return redirect()->to($referer ?? '/')->withInput();
+}
+
+
+
     public function eliminar_item($rowid){
     $cart = \Config\Services::Cart();
     $cart->remove($rowid);
@@ -135,6 +155,7 @@ public function resta($rowid){
      
     public function muestra() //carrito que se muestra
 {
+    
     $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
     $data['categorias'] = $categorias->findAll();
     $cart = \Config\Services::cart();
