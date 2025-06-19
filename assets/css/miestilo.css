@@ -122,6 +122,9 @@ body{
   margin: 30px 0;
   flex-wrap: wrap;
 }
+.btn-accion{
+  width: 90px;
+}
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{

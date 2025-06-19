@@ -59,8 +59,8 @@
                                         <?php endif; ?>
                                     </td>
                                     <td>
-                                        <a href="<?php echo base_url('editar/' . $unproducto['id_producto']) ?>" class="btn-action">Editar</a>
-                                        <a href="<?php echo site_url('borrar/' . $unproducto['id_producto']) ?>" class="btn-action">Borrar</a>
+                                        <a href="<?php echo base_url('editar/' . $unproducto['id_producto']) ?>" class="btn btn-sm btn-info me-2 btn-accion">Editar</a>
+                                        <a href="<?php echo site_url('borrar/' . $unproducto['id_producto']) ?>" class="btn btn-sm btn-info me-2 btn-danger btn-accion">Borrar</a>
                                     </td>
                                 </tr>
                             <?php endif; ?>

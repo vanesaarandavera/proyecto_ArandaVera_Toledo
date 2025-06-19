@@ -50,15 +50,15 @@
                             <td>
                                 <?php
                                 // Muestra "Activo" o "Inactivo" según el campo 'baja'
-                                echo ($usuario['baja'] === 'NO') ? '<span class="badge bg-success">Activo</span>' : '<span class="badge bg-danger">Inactivo</span>';
+                                echo ($usuario['baja'] === 'NO') ? '<span class="badge bg-success btn-accion">Activo</span>' : '<span class="badge bg-danger btn-accion">Inactivo</span>';
                                 ?>
                             </td>
                             <td>
-                                <a href="<?= base_url('admin/usuarios/editar/' . esc($usuario['id_usuario'])) ?>" class="btn btn-sm btn-info me-2">Editar</a>
+                                <a href="<?= base_url('admin/usuarios/editar/' . esc($usuario['id_usuario'])) ?>" class="btn btn-sm btn-info me-2 btn-accion">Editar</a>
                                 <?php if ($usuario['baja'] === 'NO') : ?>
-                                    <button type="button" class="btn btn-sm btn-danger" onclick="confirmacionCambioEstado(<?= esc($usuario['id_usuario']) ?>, 'baja')">Dar de Baja</button>
+                                    <button type="button" class="btn btn-sm btn-danger btn-accion" onclick="confirmacionCambioEstado(<?= esc($usuario['id_usuario']) ?>, 'baja')">Dar de Baja</button>
                                 <?php else : ?>
-                                    <button type="button" class="btn btn-sm btn-success" onclick="confirmacionCambioEstado(<?= esc($usuario['id_usuario']) ?>, 'alta')">Dar de Alta</button>
+                                    <button type="button" class="btn btn-sm btn-success btn-accion" onclick="confirmacionCambioEstado(<?= esc($usuario['id_usuario']) ?>, 'alta')">Dar de Alta</button>
                                 <?php endif; ?>
                             </td>
                         </tr>

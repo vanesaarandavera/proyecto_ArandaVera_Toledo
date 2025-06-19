@@ -35,12 +35,12 @@
                                 <td><?php echo $row['respuesta'] ?></td>
                                 <td>
                                     <?php if ($row['respuesta'] == 'NO') { ?>
-                                        <a href="<?php echo base_url('atender_consulta/' . $row['id_consulta']) ?>" class="btn btn-success btn-sm">
+                                        <a href="<?php echo base_url('atender_consulta/' . $row['id_consulta']) ?>" class="btn btn-success btn-sm btn-accion">
                                             Atender
                                         </a>
                                     <?php } ?>
                                     <?php if ($row['respuesta'] == 'SI') { ?>
-                                        <a href="<?php echo base_url('eliminar_consulta/' . $row['id_consulta']) ?>" class="btn btn-danger btn-sm">
+                                        <a href="<?php echo base_url('eliminar_consulta/' . $row['id_consulta']) ?>" class="btn btn-danger btn-sm btn-accion">
                                             Eliminar
                                         </a>
                                     <?php } ?>
