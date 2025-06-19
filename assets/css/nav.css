@@ -3,7 +3,7 @@
 .carousel-promo{
     margin: 0;
     padding: 8px;
-    background-color: var(--color-naranja);
+    background-color: var(--color-principal);
 
 }
 .carousel-promo h5{
@@ -78,6 +78,10 @@ hr{
     .carousel-promo h5{
         font-size: 18px;
     }
+    .nav-lista-cerrarSesion{
+        display: block;
+    }
+    
 }
 @media screen and  (min-width: 992px) {
     .navbar-menu{

@@ -147,9 +147,6 @@ $usuario = $session->get('id_usuario');
                 </a>
 
                 <ul class="dropdown-menu">
-                  <li>
-                    <hr class="dropdown-divider">
-                  </li>
                   <li><a class="dropdown-item " href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
 
                 </ul>
