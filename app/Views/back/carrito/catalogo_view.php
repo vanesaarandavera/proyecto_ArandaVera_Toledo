@@ -68,8 +68,8 @@
         <?php endif; ?>
 
     </div>
-    <div class="pagination">
-        <?= $pager->links(); ?>
+    <div class="pagination-t d-flex justify-content-center my-4">
+       <?= $pager->links() ; ?>
     </div>
     
 </div>
