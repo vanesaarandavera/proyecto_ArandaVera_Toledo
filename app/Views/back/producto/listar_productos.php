@@ -12,8 +12,8 @@
         </div>
     <?php endif; ?>
 </div>
-<div class="container">
-    <h1 class="titulo centrado">Listado de Productos</h1>
+<div class="container centrado">
+    <h1 class="titulo ">Listado de Productos</h1>
 </div>
 <div class="container mt-3">
     <div class="d-flex justify-content-end productos-btn">

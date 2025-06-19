@@ -102,10 +102,10 @@
             </div>
 
             <!--botones-->
-            <div class="form-group">
-                <button type="submit" id="send_form" class="btn btn-success">Guardar</button>
-                <button type="reset" class="btn btn-danger">Cancelar</button>
-                <a href="<?= base_url('listaProductos'); ?>" class="btn btn-secondary">Volver</a>
+            <div class="d-flex justify-content-end pt-5 productos-btn">
+                <button type="submit" id="send_form" class="btn btn-success btn-estilos btn-continuar">Guardar</button>
+                <button type="reset" class="btn btn-danger btn-estilos">Limpiar</button>
+                <a href="<?= base_url('listaProductos'); ?>" class="btn btn-secondary btn-estilos btn-continuar">Volver</a>
             </div>
         </form><!--fin del formulario-->
     </div>

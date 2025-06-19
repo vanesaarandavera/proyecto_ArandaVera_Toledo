@@ -10,7 +10,7 @@ body{
  /* Margen entre el footer y el contenido */
 }
 .titulo{
-  margin-top: 45px ;
+  margin-top: 50px ;
   color: var(--color-principal);
   font-size: 100%;
 }
@@ -102,15 +102,12 @@ body{
 /*Login*/
 .btn-estilos{
   font-size: 20px;
-  width: 150px;
+  width: 140px;
   margin: 0 25px;
   color: var(--color-blanco);
   border-color: var(--color-principal);
 }
-.btn-continuar, .btn-cancelar {
-  width: 130px;
-  margin: 15px;
-}
+
 .btn-cancelar{
   margin-right: 0;
 }
@@ -119,7 +116,9 @@ body{
 }
 .productos-btn{
   width: 100%;
-  margin: 30px 0;
+  margin-top: 25px;
+  margin-bottom: 20px;
+ 
   flex-wrap: wrap;
 }
 .btn-accion{
@@ -134,6 +133,12 @@ body{
   
   justify-content: center;
 }
+.btn-estilos{
+  font-size: 15px;
+  width: 120px;
+  margin: 10px 10px;
+}
+
 }
 @media (min-width: 481px) and (max-width: 600px) {
   .footer {

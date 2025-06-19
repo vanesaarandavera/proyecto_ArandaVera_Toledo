@@ -87,9 +87,9 @@
                             <?php endif; ?>
                         </div>
 
-                        <div class="form-group pt-5 d-flex justify-content-between align-items-center">
-                            <button type="submit" class="btn btn-success">AGREGAR</button>
-                            <p class="d-flex justify-content-between align-items-center m-0"><a href="<?= base_url('login') ?>" class="btn btn-danger">CANCELAR</a>
+                        <div class=" d-flex justify-content-end align-items-center productos-btn">
+                            <button type="submit" class="btn btn-success btn-estilos btn-continuar">AGREGAR</button>
+                            <p  class="d-flex  align-items-center m-0 "><a href="<?= base_url('login') ?>" class="btn btn-danger btn-estilos btn-cancelar">CANCELAR</a>
                         </div>
                     </div>
                 </div>

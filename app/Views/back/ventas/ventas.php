@@ -12,8 +12,8 @@
         </div>
     <?php endif; ?>
 
-    <div class="container">
-        <h1 class="titulo centrado">Listado de Ventas</h1>
+    <div class="container centrado">
+        <h1 class="titulo ">Listado de Ventas</h1>
     </div>
 
     <div class="table-responsive-sm">

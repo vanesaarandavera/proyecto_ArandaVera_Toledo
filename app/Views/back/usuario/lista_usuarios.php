@@ -11,8 +11,8 @@
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
     <?php endif; ?>
-        <div class="container">
-            <h1 class="titulo centrado">Listado de Usuarios</h1>
+        <div class="container centrado">
+            <h1 class="titulo ">Listado de Usuarios</h1>
         </div>
 
     <div class=" d-flex justify-content-end productos-btn">
