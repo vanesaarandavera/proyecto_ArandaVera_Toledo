@@ -124,6 +124,9 @@ body{
 .btn-accion{
   width: 90px;
 }
+.login-form{
+  width: 50%;
+}
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{
@@ -137,6 +140,9 @@ body{
   font-size: 15px;
   width: 120px;
   margin: 10px 10px;
+}
+.login-form{
+  width: 100%;
 }
 
 }
@@ -155,6 +161,9 @@ body{
   
   justify-content: center;
 }
+.login-form{
+  width: 90%;
+}
 }
 
 /* Ajuste para pantallas medianas (tablets) */
@@ -170,6 +179,9 @@ body{
   body{
     font-size: 30px;
   }
+  .login-form{
+  width: 80%;
+}
 }
 
 /* Ajuste para pantallas grandes (desktops) */

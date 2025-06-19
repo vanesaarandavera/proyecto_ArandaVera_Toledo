@@ -32,7 +32,7 @@
         ?>
 
         <?php if (empty($productosEliminados)) : ?>
-            <p class="alert alert-warning">No hay productos eliminados.</p>
+            <p class=" subtitulo">No hay productos eliminados.</p>
         <?php else : ?>
             <table class="table table-striped table-hover table-sm cuadro" id="user-list">
                 <thead>

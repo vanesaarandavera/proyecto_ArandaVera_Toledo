@@ -1,5 +1,5 @@
 <div class="container mt-5 mb-5 d-flex justify-content-center align-items-center ">
-    <div class="col-md-6 col-lg-4 p-4 rounded shadow bg-light">
+    <div class="col-md-6 col-lg-4 p-4 rounded shadow bg-light login-form">
         <h2 class="titulo text-center mb-4">Ingresa a tu cuenta</h2>
 
         <?php
@@ -15,7 +15,7 @@
             </div>
         <?php endif; ?>
 
-        <form action="<?= base_url('enviarlogin') ?>" class="was-validated" method="post">
+        <form action="<?= base_url('enviarlogin') ?>" class="was-validated " method="post">
             <div class="mb-3">
                 <label for="uname" class="form-label">Email:</label>
                 <input type="email" class="form-control" id="email" placeholder="Ingresa email de usuario" name="email" required>
@@ -30,10 +30,10 @@
             </div>
             <div class="inicio-flex login-btn" >
                 <div class="d-grid">
-                    <button type="button" class="btn btn-danger btn-cancelar" onclick="window.location.href='<?= base_url('/') ?>'">Cancelar</button>
+                    <button type="button" class="btn btn-danger btn-estilos btn-cancelar" onclick="window.location.href='<?= base_url('/') ?>'">Cancelar</button>
                 </div>
                 <div class="d-grid">
-                    <button type="submit" class="btn btn-primary btn-continuar">Continuar</button>
+                    <button type="submit" class="btn btn-primary btn-estilos btn-continuar">Continuar</button>
                 </div>
             </div>
 
