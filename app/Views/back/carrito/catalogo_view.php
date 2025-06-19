@@ -11,6 +11,14 @@
             <?php echo session()->getFlashdata('failed') ?>
         </div>
     <?php endif; ?>
+    <?php if (session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger"><?= session('error') ?></div>
+<?php endif; ?>
+
+<?php if (session()->getFlashdata('success')): ?>
+    <div class="alert alert-success"><?= session('success') ?></div>
+<?php endif; ?>
+
 </div>
 <div class="container mt-5">
 
@@ -45,7 +53,7 @@
                                 <p class="card-text inicio-libros-tarjetas-autor"><?= esc($unproducto['autor']) ?></p>
                                 <p class="card-text inicio-libros-tarjetas-precio">Precio: $<?= number_format($unproducto['precio_vta'], 2) ?></p>
 
-                                <?php echo form_open('carrito/add', ['class' => 'd-inline-block']); // d-inline-block para que el form no ocupe toda la línea
+                                <?php echo form_open('/carrito/add', ['class' => 'd-inline-block']); // d-inline-block para que el form no ocupe toda la línea
                                                                 echo form_hidden('id', $unproducto['id_producto']);
                                                                 echo form_hidden('precio_vta', $unproducto['precio_vta']);
                                                                 echo form_hidden('nombre_prod', $unproducto['nombre_prod']);
