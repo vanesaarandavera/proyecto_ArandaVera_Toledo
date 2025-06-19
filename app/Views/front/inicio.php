@@ -28,15 +28,14 @@
   </div>
   <div class="centrado">
     <h3 class="titulo">Todos los libros</h3>
-</div>
-<div>
-    <form action="<?= site_url('inicio') ?>" method="get" class="d-flex">
-    <select name="orden" class="t form-select categoria-ordenar" aria-label="Large  select example">
+  </div>
+  <div class="centrado inicio-ordenar">
+    <form action="<?= site_url('inicio') ?>" method="get" class="d-flex inicio-ordenar-form">
+      <select name="orden" class="t form-select inicio-ordenar-select" aria-label="Large  select example">
         <option selected>Ordenar</option>
         <option value="asc" <?= ($orden == 'asc') ? 'selected' : '' ?>>Precio: Menor a Mayor</option>
-        <option  value="desc" <?= ($orden == 'desc') ? 'selected' : '' ?>>Precio: Mayor a Menor</option>
-    </select>
-    <button type="submit" class="btn btn-primary">Ordenar</button>
-</form>
+        <option value="desc" <?= ($orden == 'desc') ? 'selected' : '' ?>>Precio: Mayor a Menor</option>
+      </select>
+      <button type="submit" class="btn  btn-buscar">Ordenar</button>
+    </form>
   </div>
-

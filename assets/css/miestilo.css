@@ -88,6 +88,18 @@ body{
         text-align: justify;
     }
 
+.inicio-ordenar{
+  width: 80%;
+  margin-top: 30px;
+  
+}
+.inicio-ordenar-form{
+  justify-content: space-around;
+}
+.inicio-ordenar-select{
+  width: 90%;
+}
+
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{
