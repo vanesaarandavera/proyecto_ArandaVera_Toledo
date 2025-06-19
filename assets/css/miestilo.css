@@ -101,9 +101,10 @@ body{
 }
 /*Login*/
 .btn-estilos{
-  font-size: 20px;
-  width: 140px;
-  margin: 0 25px;
+  font-size: 18px;
+  width: 135px;
+  margin: 0 13px;
+  margin-bottom: 15px;
   color: var(--color-blanco);
   border-color: var(--color-principal);
 }
@@ -125,8 +126,9 @@ body{
   width: 90px;
 }
 .login-form{
-  width: 50%;
+  width: 60%;
 }
+
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{
@@ -164,6 +166,11 @@ body{
 .login-form{
   width: 90%;
 }
+.btn-estilos{
+  font-size: 15px;
+  width: 120px;
+  margin: 10px 10px;
+}
 }
 
 /* Ajuste para pantallas medianas (tablets) */
@@ -180,7 +187,13 @@ body{
     font-size: 30px;
   }
   .login-form{
-  width: 80%;
+  width: 85%;
+}
+
+.btn-estilos{
+  font-size: 18px;
+  width: 130px;
+  margin: 10px 10px;
 }
 }
 
@@ -190,4 +203,5 @@ body{
     margin-top: 10px ;
     padding: 25px 50px 75px 100px; /* Restaurar espaciado amplio */
   }
+
 }
