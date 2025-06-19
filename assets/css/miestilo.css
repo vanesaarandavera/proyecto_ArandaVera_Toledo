@@ -100,22 +100,37 @@ body{
   width: 90%;
 }
 /*Login*/
-.login-btn{
-  width: 100%;
-  justify-content: space-evenly;
+.btn-estilos{
+  font-size: 20px;
+  width: 150px;
+  margin: 0 25px;
+  color: var(--color-blanco);
+  border-color: var(--color-principal);
 }
 .btn-continuar, .btn-cancelar {
-  width: 140px;
+  width: 130px;
+  margin: 15px;
+}
+.btn-cancelar{
+  margin-right: 0;
 }
 .btn-continuar{
   background-color: var(--color-principal);
 }
-
+.productos-btn{
+  width: 100%;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
   .inicio-libros-tarjetas-item{
     width: 80%;
   }
+  .productos-btn{
+  
+  justify-content: center;
+}
 }
 @media (min-width: 481px) and (max-width: 600px) {
   .footer {
@@ -128,6 +143,10 @@ body{
   body{
     font-size: 25px;
   }
+  .productos-btn{
+  
+  justify-content: center;
+}
 }
 
 /* Ajuste para pantallas medianas (tablets) */

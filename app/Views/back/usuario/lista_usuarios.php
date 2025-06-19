@@ -15,10 +15,10 @@
             <h1 class="titulo centrado">Listado de Usuarios</h1>
         </div>
 
-    <div class="actions mb-4">
-        <button class="btn btn-primary" onclick="location.href='<?= base_url('registrarse') ?>'">Agregar Nuevo Usuario</button>
-        <button class="btn btn-warning" onclick="location.href='<?= base_url('usuariosInactivos') ?>'">Usuarios Inactivos</button>
-        <button class="btn btn-info" onclick="location.href='<?= base_url('listaUsuarios') ?>'">Todos los Usuarios</button>
+    <div class=" d-flex justify-content-end productos-btn">
+        <button class="btn btn-primary btn-estilos btn-continuar" onclick="location.href='<?= base_url('registrarse') ?>'">Agregar</button>
+        <button class="btn btn-warning btn-estilos btn-continuar" onclick="location.href='<?= base_url('usuariosInactivos') ?>'">Inactivos</button>
+        <button class="btn btn-info btn-estilos btn-continuar" onclick="location.href='<?= base_url('listaUsuarios') ?>'">Todos</button>
     </div>
     <div class="mt-3">
     <div class="table-responsive">

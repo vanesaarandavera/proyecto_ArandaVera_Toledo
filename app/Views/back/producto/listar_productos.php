@@ -16,9 +16,9 @@
     <h1 class="titulo centrado">Listado de Productos</h1>
 </div>
 <div class="container mt-3">
-    <div class="d-flex justify-content-end">
-        <a href="<?php echo site_url('produ-form') ?>" class="btn btn-success btn-sm mt-1">Agregar</a>
-        <a href="<?php echo site_url('eliminados') ?>" class="btn btn-danger btn-sm mt-1">Eliminados</a>
+    <div class="d-flex justify-content-end productos-btn">
+        <a href="<?php echo site_url('produ-form') ?>" class="btn btn-success btn-sm mt-1 btn-estilos btn-continuar">Agregar</a>
+        <a href="<?php echo site_url('eliminados') ?>" class="btn btn-danger btn-sm mt-1 btn-estilos btn-cancelar">Eliminados</a>
     </div>
     <div class="mt-3">
         <div class=" table-responsive">
