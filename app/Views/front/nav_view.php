@@ -47,8 +47,8 @@ $usuario = $session->get('id_usuario');
                       CLIENTE: <?php echo session('nombre'); ?>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="<?php echo base_url('ver_factura_usuario/' . $usuario); ?>">Pedidos</a></li>
-                      <li><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
+                      <li class="menu-lista-perfil"  ><a class="dropdown-item" href="<?php echo base_url('ver_factura_usuario/' . $usuario); ?>">Pedidos</a></li>
+                      <li class="menu-lista-perfil"  ><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
                     </ul>
                   </li>
                 </ul>
@@ -63,7 +63,7 @@ $usuario = $session->get('id_usuario');
                 <ul class="dropdown-menu">
                   <?php if (!empty($categorias) && is_array($categorias)): ?>
                     <?php foreach ($categorias as $categoria): ?>
-                      <li class="dropdown-item " value="<?= htmlspecialchars($categoria['id_categorias']) ?>">
+                      <li class="dropdown-item menu-categoria-item" value="<?= htmlspecialchars($categoria['id_categorias']) ?>">
                         <a href="<?php echo base_url('productos_categoria/' . $categoria['id_categorias']); ?>"><?= htmlspecialchars($categoria['descripcion']) ?></a>
                       </li>
                     <?php endforeach; ?>
@@ -73,7 +73,7 @@ $usuario = $session->get('id_usuario');
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item " href="<?php echo base_url('/todos_p'); ?>">Ver todos</a></li>
+                  <li class="menu-categoria-item "><a class="dropdown-item " href="<?php echo base_url('/todos_p'); ?>">Ver todos</a></li>
 
                 </ul>
               </li>
@@ -105,8 +105,8 @@ $usuario = $session->get('id_usuario');
                 CLIENTE: <?php echo session('nombre'); ?>
               </a>
               <ul class="dropdown-menu dropdown-menu-end">
-                <li><a class="dropdown-item" href="<?php echo base_url('ver_factura_usuario/' . $usuario); ?>">Pedidos</a></li>
-                <li><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
+                <li class="menu-lista-perfil" ><a class="dropdown-item" href="<?php echo base_url('ver_factura_usuario/' . $usuario); ?>">Pedidos</a></li>
+                <li class="menu-lista-perfil" ><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
               </ul>
             </li>
           </ul>
@@ -147,7 +147,7 @@ $usuario = $session->get('id_usuario');
                 </a>
 
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item " href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
+                  <li class="menu-usuario" ><a class="dropdown-item " href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
 
                 </ul>
               </li>
@@ -183,8 +183,7 @@ $usuario = $session->get('id_usuario');
               ADMIN: <?php echo session('nombre'); ?>
             </a>
             <ul class="dropdown-menu dropdown-menu-end">
-
-              <li><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
+              <li class="menu-lista-perfil" ><a class="dropdown-item" href="<?php echo base_url('logout'); ?>">Cerrar sesión</a></li>
             </ul>
           </li>
         </ul>
@@ -233,7 +232,7 @@ $usuario = $session->get('id_usuario');
                 <ul class="dropdown-menu">
                   <?php if (!empty($categorias) && is_array($categorias)): ?>
                     <?php foreach ($categorias as $categoria): ?>
-                      <li class="dropdown-item " value="<?= htmlspecialchars($categoria['id_categorias']) ?>">
+                      <li class="dropdown-item menu-categoria-item" value="<?= htmlspecialchars($categoria['id_categorias']) ?>">
                         <a href="<?php echo base_url('productos_categoria/' . $categoria['id_categorias']); ?>"><?= htmlspecialchars($categoria['descripcion']) ?></a>
                       </li>
                     <?php endforeach; ?>
@@ -243,7 +242,7 @@ $usuario = $session->get('id_usuario');
                   <li>
                     <hr class="dropdown-divider">
                   </li>
-                  <li><a class="dropdown-item " href="<?php echo base_url('/todos_p'); ?>">Ver todos</a></li>
+                  <li class="menu-categoria-item"  ><a class="dropdown-item " href="<?php echo base_url('/todos_p'); ?>">Ver todos</a></li>
 
                 </ul>
               </li>
