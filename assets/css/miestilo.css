@@ -99,6 +99,17 @@ body{
 .inicio-ordenar-select{
   width: 90%;
 }
+/*Login*/
+.login-btn{
+  width: 100%;
+  justify-content: space-evenly;
+}
+.btn-continuar, .btn-cancelar {
+  width: 140px;
+}
+.btn-continuar{
+  background-color: var(--color-principal);
+}
 
 /* Ajuste para pantallas pequeñas */
 @media (max-width: 480px){
