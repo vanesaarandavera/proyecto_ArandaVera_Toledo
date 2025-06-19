@@ -51,10 +51,11 @@ class Login_controller extends BaseController
                 $tipo_usuario =  $data['perfil_id'];
                 $session->set($ses_data);
                 $session->setFlashdata('success', 'Bienvenido!!');
-                if ($tipo_usuario = 1) {
-                    return redirect()->to('listaProductos');
+
+                if ($data['perfil_id'] == 1) {
+                    return redirect()->to('listaProductos'); //Admin
                 } else {
-                    return redirect()->to('inicio'); //pagina principal
+                    return redirect()->to('/'); //pagina principal, Cliente
                 }
             } else {
                 //no pasa la validacion de la password
