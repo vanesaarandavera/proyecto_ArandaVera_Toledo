@@ -10,10 +10,14 @@
     </div>
 <?php } else { ?>
     <div class="container">
-        <div class="table-responsive-sm text-center">
-            <h1 class="text-center titulo">Mis compras</h1>
-            <table class="table table-warning table-striped rounded">
-                <thead class="thead-dark">
+        <div class="cart">
+            <div class="heading centrado">
+                <h2 class="text-center titulo">Mis compras</h1>
+            </div>
+        </div>
+        <div class="table-responsive-sm text-center">            
+            <table class="table table-striped table-hover table-sm cuadro">
+                <thead>
                     <th>Nombre cliente</th>
                     <th>Email</th>
                     <th>Usuario</th>

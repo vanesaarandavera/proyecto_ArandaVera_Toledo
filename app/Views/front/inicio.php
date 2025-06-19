@@ -27,7 +27,7 @@
     </button>
   </div>
   <div class="centrado">
-    <h3 class="titulo">Todos los libros</h3>
+    <h3 class="text-center titulo">Todos los libros</h3>
   </div>
   <div class="centrado inicio-ordenar">
     <form action="<?= site_url('inicio') ?>" method="get" class="d-flex inicio-ordenar-form">
