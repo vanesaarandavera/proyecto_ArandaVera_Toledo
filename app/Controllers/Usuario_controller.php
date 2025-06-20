@@ -22,7 +22,6 @@ class Usuario_controller extends Controller
             [ //objeto validate
                 'nombre'   => 'required|min_length[3]',
                 'apellido' => 'required|min_length[3]|max_length[25]',
-                'direccion' => 'required|min_length[3]',
                 'email'    => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
                 'usuario'  => 'required|min_length[3] |is_unique[usuarios.usuario]',
                 'pass'     => 'required|min_length[3]|max_length[10]'
@@ -59,7 +58,6 @@ class Usuario_controller extends Controller
         $this->user->save([
             'nombre' => $this->request->getVar('nombre'),
             'apellido' => $this->request->getVar('apellido'),
-            'direccion' => $this->request->getVar('direccion'),
             'usuario' => $this->request->getVar('usuario'),
             'email'  => $this->request->getVar('email'),
             'pass'  => password_hash($this->request->getVar('pass'), PASSWORD_DEFAULT)

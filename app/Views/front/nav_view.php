@@ -1,6 +1,6 @@
 <?php
 $session = session();
-$nonbre = $session->get('nombre');
+$nombre = $session->get('nombre');
 $perfil = $session->get('perfil_id');
 $usuario = $session->get('id_usuario');
 ?>

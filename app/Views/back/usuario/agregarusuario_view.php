@@ -47,15 +47,6 @@
                             <?php endif; ?>
                         </div>
 
-                        <div class="form-group">
-                            <label for="direccion" class="form-label">Direccion</label>
-                            <input type="text" class="form-control <?php if ($validation->getError('direccion')) : ?>is-invalid<?php endif ?>" name="direccion" id="direccion" placeholder="Direccion" value="<?php echo set_value('direccion'); ?>" />
-                            <?php if ($validation->getError('direccion')) : ?>
-                                <div class="invalid-feedback">
-                                    <?= $validation->getError('direccion') ?>
-                                </div>
-                            <?php endif; ?>
-                        </div>
 
                         <div class="form-group pt-3">
                             <label for="email"> Email </label>
@@ -87,15 +78,9 @@
                             <?php endif; ?>
                         </div>
 
-                        <div class=" d-flex justify-content-end align-items-center productos-btn">
-                            <button type="submit" class="btn btn-success btn-estilos btn-continuar">AGREGAR</button>
-                            <p class="d-flex  align-items-center m-0 ">
-                                <?php if (session()->get('perfil_id') == 1) : ?>
-                                    <a href="<?= base_url('listaUsuarios') ?>" class="btn btn-danger btn-estilos btn-cancelar">Cancelar</a>
-                                <?php else : ?>
-                                    <a href="<?= base_url('inicio') ?>" class="btn btn-danger btn-estilos btn-cancelar">Cancelar</a>
-                                <?php endif; ?>
-                            </p>
+                        <div class="form-group pt-5 d-flex justify-content-between align-items-center">
+                            <button type="submit" class="btn btn-success">AGREGAR</button>
+                            <p class="d-flex justify-content-between align-items-center m-0"><a href="<?= base_url('login') ?>" class="btn btn-danger">CANCELAR</a>
                         </div>
                     </div>
                 </div>
