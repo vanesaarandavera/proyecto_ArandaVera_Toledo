@@ -10,9 +10,6 @@ class Home extends BaseController
     private $session;
     public function index()
     {
-
-
-
         $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
         $data['categorias'] = $categorias->findAll();
         $cart = \Config\Services::cart();
@@ -23,7 +20,6 @@ class Home extends BaseController
         $productosPorPagina = 10;
         // Obtener criterio de ordenación desde el formulario
         $orden = $this->request->getGet('orden') ?? 'ASC'; // Por defecto, orden descendente
-
         // Filtrar y ordenar productos activos según el precio
         $data['producto'] = $productoModel->where('eliminado', '0')
             ->orderBy('precio_vta', $orden) // Orden dinámico
@@ -33,7 +29,6 @@ class Home extends BaseController
         $data['orden'] = $orden;
 
         $data['categoria_id'] = 0;
-
 
         // Pasar los enlaces de paginación
         $data['pager'] = $productoModel->pager;

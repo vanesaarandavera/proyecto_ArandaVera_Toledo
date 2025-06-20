@@ -50,7 +50,7 @@ class Login_controller extends BaseController
                 //se cumple la verificacion e inicia la sesión
                 $tipo_usuario =  $data['perfil_id'];
                 $session->set($ses_data);
-                $session->setFlashdata('success', 'Bienvenido!!');
+               $session->setFlashdata('success', '¡Bienvenido, ' . $ses_data['nombre'] . '!');
 
                 if ($data['perfil_id'] == 1) {
                     return redirect()->to('listaProductos'); //Admin

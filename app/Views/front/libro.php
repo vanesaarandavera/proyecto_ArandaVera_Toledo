@@ -1,8 +1,4 @@
-<div class="container mt-5">
-    <h3 class="titulo">Todos los libros</h3>
-    <div class="inicio-libros-tarjetas inicio-flex">
-
-
+<div class="inicio-libros-tarjetas inicio-flex">
         <?php
         if ($producto) : ?>
             <?php foreach ($producto as $unproducto): ?>
