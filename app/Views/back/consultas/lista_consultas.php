@@ -14,7 +14,7 @@
         <div class="container-fluid">
             <h1 class="titulo centrado">Consultas</h1>
         </div>
-        <div class="mt-3">
+        <div class="mt-3 centrado">
             <div class="table-responsive-sm">
                 <table id="myTable" class="table table-striped table-hover table-sm cuadro">
                     <thead>
