@@ -1,10 +1,10 @@
 <?php if (empty($ventas)) { ?>
     <!-- avisamos que no hay consultas -->
     <div class="container">
-        <div class="alert alert-dark text-center" role="alert">
-            <h4 class="alert-heading">No posee compras registradas</h4>
-            <p>Para realizar una compra visite nuestro catálogo.</p>
-            <hr>
+        <div class="alert  text-center" role="alert">
+            <h4 class="alert-heading titulo">No posee compras registradas</h4>
+            <p class="subtitulo">Para realizar una compra visite nuestro catálogo.</p>
+            
             <a class="btn btn-warning my-2 w-10" href="<?php echo base_url('todos_p') ?>">Catálogo</a>
         </div>
     </div>
