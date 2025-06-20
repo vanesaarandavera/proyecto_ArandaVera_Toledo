@@ -1,6 +1,6 @@
 <div class="centrado comercializacion-section">
-  <h1 class="titulo"> Comercializacion</h1>
-  <h4 class="subtitulo">Envio gratis a partir de 10000 pesos</h4>
+  <h1 class="titulo"> Comercialización</h1>
+  <h4 class="subtitulo">Envío gratis a partir de 10000 pesos</h4>
   <!--Inicio del acordeon para comercializacion:Tipos de entrega -->
   <div class="accordion comercializacion-acordeon" id="accordionExample">
     <div class="accordion-item">

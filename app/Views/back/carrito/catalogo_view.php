@@ -29,7 +29,7 @@
 
 
     <?php if (empty($producto)): ?>
-        <p class="alert alert-warning">No hemos encontrado su producto.</p>
+        <p class="alert titulo">No hemos encontrado su producto.</p>
     <?php else: ?>
 
 

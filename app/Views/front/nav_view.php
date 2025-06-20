@@ -9,10 +9,10 @@ $usuario = $session->get('id_usuario');
 <div id="carouselExampleSlidesOnly" class="carousel slide " data-bs-ride="carousel">
   <div class="carousel-inner carousel-promo">
     <div class="carousel-item active text-center">
-      <h5>3 y 6 cuotas sin interes</h5>
+      <h5>3 y 6 cuotas sin interés</h5>
     </div>
     <div class="carousel-item  text-center">
-      <h5>Envio gratis en la compra de mas de $10000</h5>
+      <h5>Envío gratis en la compra de más de $10000</h5>
     </div>
   </div>
 </div>
@@ -32,7 +32,7 @@ $usuario = $session->get('id_usuario');
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -54,7 +54,7 @@ $usuario = $session->get('id_usuario');
                 </ul>
               </div>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a>
+                <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quiénes Somos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -81,7 +81,7 @@ $usuario = $session->get('id_usuario');
                 <a class="nav-link" href="<?php echo base_url('contactos'); ?>">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+                <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercialización</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('terminosYUsos'); ?>">Términos y usos</a>
@@ -136,7 +136,7 @@ $usuario = $session->get('id_usuario');
 
         <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
           <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -223,11 +223,11 @@ $usuario = $session->get('id_usuario');
                 <a class="nav-link nav-item-mi-cuenta" aria-current="page" href="<?php echo base_url('login'); ?>">Mi cuenta</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quienes Somos</a>
+                <a class="nav-link" href="<?php echo base_url('quienes_somos'); ?>">Quiénes Somos</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Categorias
+                  Categorías
                 </a>
                 <ul class="dropdown-menu">
                   <?php if (!empty($categorias) && is_array($categorias)): ?>
@@ -250,7 +250,7 @@ $usuario = $session->get('id_usuario');
                 <a class="nav-link" href="<?php echo base_url('contactos'); ?>">Contacto</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercializacion</a>
+                <a class="nav-link" href="<?php echo base_url('comercializacion'); ?>">Comercialización</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('terminosYUsos'); ?>">Términos y usos</a>
