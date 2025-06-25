@@ -108,7 +108,7 @@ $routes->get('ver_factura_usuario/(:num)', 'Ventas_controller::ver_facturas_usua
 $routes->get('/ventas', 'Ventas_controller::ventas', ['filter' => 'Auth']);
 
 //gestión de consultas
-$routes->post('guardar_consulta', 'Consultas_controller::guardar_consulta', ['filter' => 'Auth']);
+$routes->post('guardar_consulta', 'Consultas_controller::guardar_consulta');
 $routes->get('listar_consultas', 'Consultas_controller::listar_consultas', ['filter' => 'Auth']);
 $routes->get('atender_consulta/(:segment)', 'Consultas_controller::atender_consulta/$1', ['filter' => 'Auth']);
 $routes->get('eliminar_consulta/(:segment)', 'Consultas_controller::eliminar_consulta/$1', ['filter' => 'Auth']);
