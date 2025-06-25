@@ -1,4 +1,14 @@
-<body>
+<?php if (session()->getFlashdata('success')): ?>
+    <div class="alert alert-success">
+        <?= session()->getFlashdata('success') ?>
+    </div>
+<?php endif; ?>
+
+<?php if (session()->getFlashdata('error')): ?>
+    <div class="alert alert-danger">
+        <?= session()->getFlashdata('error') ?>
+    </div>
+<?php endif; ?>
 
 <div class="container">
     <div class="containerContacto mb-5"> <h1 class="titulo text-center mb-4">Datos de Contacto</h1> <h3 class="contactos-dato"><strong>Nombre de la Empresa: </strong> Voces de Papel</h3>
