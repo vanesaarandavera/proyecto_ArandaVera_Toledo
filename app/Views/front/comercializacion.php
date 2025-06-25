@@ -48,7 +48,7 @@
           </div>
           <hr class="comercilaizacion-hr">
           <div class="comercializacion-acordeon-pagos">
-            <img src="assets\img\Banco_Nación.svg.png" alt="">
+            <img src="assets\img\banco-nacion.png" alt="">
             <p class="comercializacion-acordeon-p-bancos"><strong>30% de descuento</strong> Pagando con QR MODO y Crédito Visa o Mastercard. Tope de reintegro: $12.000 por cliente y por semana.</p>
           </div>
           <hr class="comercilaizacion-hr">
