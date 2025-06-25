@@ -172,7 +172,7 @@ $usuario = $session->get('id_usuario');
       </div>
 
       <div class="navbar-logo">
-        <a href="<?php echo base_url('inicio'); ?>">
+        <a href="<?php echo base_url('listaProductos'); ?>">
           <img class="navbar-logo-img" src="<?= base_url('assets/img/logo.png') ?>" alt="logo-voces-de-papel" width="100" height="100">
         </a>
       </div>
