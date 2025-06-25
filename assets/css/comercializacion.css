@@ -12,7 +12,7 @@
 }
 .comercializacion-acordeon-p, .comercializacion-acordeon-p-bancos{
     font-size: 50%;
-    text-align: left;
+    text-align: justify;
 }
 .comercializacion-acordeon-pagos{
     display: flex;
