@@ -55,7 +55,7 @@ class Ventas_controller extends Controller
             return redirect()->to(base_url('muestro'));
         }
         // Register sale header
-        // Asegurarse de que el usuario_is de la session existe
+        // Asegurarse de que el usuario_id de la session existe
         $usuario_id = $session->get('id_usuario');
         if (!$usuario_id) {
             $session->setFlashdata('mensaje', 'Error: No se pudo obtener el ID de usuario de la sesión.');
@@ -112,10 +112,10 @@ class Ventas_controller extends Controller
         return redirect()->to(base_url('vista_compras/' . $venta_id));
     }
 
-    //función del usuario cliente para ver sus compras
+    //función del usuario cliente para ver sus compras. Detalle de cada pedido
     public function ver_factura($venta_id)
     {
-        $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
+        $categorias = new categoria_model();
         $data['categorias'] = $categorias->findAll();
         $detalle_ventas = new Ventas_detalle_model();
         $data['venta'] = $detalle_ventas->getDetalles($venta_id);
@@ -126,10 +126,10 @@ class Ventas_controller extends Controller
         echo view('back/compras/vista_compras', $data);
         echo view('front/footer_view');
     }
-    //función del cliente para ver el detalle de su facturas de compras
+    //función del cliente para ver el detalle de su facturas de compras (pedidos)
     public function ver_facturas_usuario($id_usuario)
     {
-        $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
+        $categorias = new categoria_model(); 
         $data['categorias'] = $categorias->findAll();
         $ventas = new Ventas_cabecera_model();
         $data['ventas'] = $ventas->getVentas($id_usuario);
@@ -143,7 +143,7 @@ class Ventas_controller extends Controller
     //admin
     public function ventas()
     {
-        $categorias = new categoria_model(); // Asegúrate de que el modelo esté correctamente instanciado
+        $categorias = new categoria_model(); 
         $data['categorias'] = $categorias->findAll();
         $venta_id = $this->request->getGet('id');
         $detalle_ventas = new Ventas_detalle_model();

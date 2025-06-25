@@ -196,7 +196,7 @@ class Usuario_controller extends Controller
     }
      public function bajaUsuario($id){
         // Verificar si el usuario logueado es un administrador ===
-        if (!session()->get('logged_in') || session()->get('perfil_id') != 1) {
+        if (session()->get('perfil_id') != 1) {
             session()->setFlashdata('error', 'Acceso denegado. No tienes permisos para realizar esta acción.');
             return redirect()->to(site_url('/login'));
         }
