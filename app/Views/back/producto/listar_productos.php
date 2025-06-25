@@ -44,9 +44,9 @@
                             <?php if ($eliminado == '0'): ?>
                                 <tr>
                                     <td><?= esc($unproducto['id_producto']) ?></td>
-                                    <td><?= esc($unproducto['nombre_prod']) ?></td>
+                                    <td ><?= esc($unproducto['nombre_prod']) ?></td>
                                     <td><?= esc($unproducto['autor']) ?></td>
-                                    <td><?= esc($unproducto['descripcion']) ?></td>
+                                    <td class="text-justify"><?= esc($unproducto['descripcion']) ?></td>
                                     <td>$<?= number_format($unproducto['precio'], 2) ?></td>
                                     <td>$<?= number_format($unproducto['precio_vta'], 2) ?></td>
                                     <td><?= esc($unproducto['stock']) ?></td>
